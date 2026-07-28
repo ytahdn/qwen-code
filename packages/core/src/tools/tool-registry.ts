@@ -28,6 +28,7 @@ import { sanitizeChildEnv } from '../utils/sanitize-child-env.js';
 import { normalizePathEnvForWindows } from '../utils/windowsPath.js';
 import type { ReadResourceResult } from '@modelcontextprotocol/sdk/types.js';
 import { normalizeMcpToolName } from '../utils/tool-name-utils.js';
+import { CHARS_PER_TOKEN } from '../services/tokenEstimation.js';
 
 type ToolParams = Record<string, unknown>;
 
@@ -827,6 +828,48 @@ export class ToolRegistry {
     // Stable order so the startup reminder text is deterministic across runs.
     summary.sort((a, b) => a.name.localeCompare(b.name));
     return summary;
+  }
+
+  /**
+   * Reveals every deferred MCP tool when the combined estimated token
+   * footprint of their schemas fits within `budgetTokens`. A small MCP
+   * tool set is cheaper to declare upfront than to route through
+   * ToolSearch: the declaration list then never changes mid-session, so
+   * prefix KV caches survive the whole conversation. All-or-nothing on
+   * purpose — a partial reveal would leave an arbitrary subset behind
+   * ToolSearch.
+   *
+   * Already-revealed MCP tools count toward the total (reveal is
+   * idempotent), so repeated calls cannot ratchet past the budget as
+   * servers come and go. Bundled deferred tools are never preloaded —
+   * deferring them is a deliberate curation of the initial declaration
+   * list, independent of MCP set size. Returns the number of newly
+   * revealed tools.
+   */
+  preloadDeferredMcpToolsWithinBudget(budgetTokens: number): number {
+    const candidates: string[] = [];
+    let totalChars = 0;
+    for (const tool of this.tools.values()) {
+      if (!(tool instanceof DiscoveredMCPTool)) continue;
+      if (!tool.shouldDefer || tool.alwaysLoad) continue;
+      if (this.config.getVisibleTools().has(tool.name)) continue;
+      candidates.push(tool.name);
+      totalChars += JSON.stringify(tool.schema).length;
+    }
+    if (
+      candidates.length === 0 ||
+      Math.ceil(totalChars / CHARS_PER_TOKEN) > budgetTokens
+    ) {
+      return 0;
+    }
+    let revealed = 0;
+    for (const name of candidates) {
+      if (!this.revealedDeferred.has(name)) {
+        this.revealedDeferred.add(name);
+        revealed++;
+      }
+    }
+    return revealed;
   }
 
   getMcpServerInstructions(): Map<string, string> {
