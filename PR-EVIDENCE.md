@@ -1,23 +1,19 @@
-# Merge verification / 合并验证
+# Latest merge verification / 最新合并验证
 
-Verified the merge of origin/main b9840886b8 into feat/web-shell-turn-calls-panel on macOS with Chromium, the built real daemon and bundled Web Shell. The model was a local scripted OpenAI-compatible service; shell/glob tools executed for real. No mock daemon or browser response interception. Screenshots were inspected visually.
+Merge commit: 20a5809053. Base: origin/main 40ef07ab35 (trajectory overview strip). The sole conflict was in TrajectoryPanel; the resolved component and its tests match upstream exactly.
 
-- The sender prompt is selected and persisted while running; no tool-history polling occurs.
-- Settlement reads history once and shows both calls. Replay returns recorded start timestamps and durations (shell 8239ms, glob 7ms) through the upstream started_at_ms recording path.
-- Reopening from the original sender message adopts the durable record ID. Reload restores the panel and both completed rows; no browser page errors.
-- The empty new-session index initially returned 404. Manual index refresh clears that notice without reading tool history. The running screenshot is taken after this refresh; sender-running.png retains the initial notice. This pre-existing behavior is documented, not claimed fixed.
-- 3,395 scoped tests passed: Core/telemetry 538, ACP replay 144, SDK 414, CLI Session/emitter/route 1,135, Web Shell App/panel/trajectory 1,164. Two stale timing assertions from automatic merging were corrected and their 51-test trajectory suite rerun successfully. Full build, typecheck and bundle passed, as did formatting/lint for integration changes.
+1,210 scoped Web Shell tests passed: App 1,038; Tool calls 77; TrajectoryPanel 26; TrajectoryOverview 8; buildTimeline 10; buildTrajectory 34; projection 17. Full repository build, typecheck, bundle and commit hooks passed.
 
-This does not verify production models, actual Git operations, Windows/Linux, or repeat the maintainer's large-session survey.
+Chromium uses the built real daemon and bundled Web Shell, with a local scripted OpenAI-compatible model and real shell/glob execution. No mock daemon or browser response interception. Running sender selection is persisted without historical tool polling; settlement reads history once; reopening the original sender adopts its durable record ID; reload restores both completed rows. The upstream overview renders both tool spans, and clicking a span selects it. Screenshots are visually inspected.
+
+The first attempt's extra overview check omitted reopening the right panel after closing its final tab and timed out; the script was corrected and rerun. The existing initial empty-session index notice is cleared with manual index refresh; it is not claimed fixed. No production-model, real Git-operation, large-session survey, or Windows/Linux coverage is claimed.
 
 ## 中文
 
-在 macOS 上将 origin/main b9840886b8 合入功能分支后，使用 Chromium、构建后的真实 daemon 和打包 Web Shell 验证。本地脚本模型提供 OpenAI 兼容响应，shell/glob 工具真实执行；没有模拟 daemon 或浏览器响应拦截，截图已目视检查。
+合并提交 20a5809053，主分支 40ef07ab35（轨迹时间轴）。唯一冲突在 TrajectoryPanel，解决后组件及测试与主分支完全一致。
 
-- 运行中默认选中发送端提示词并保存持久身份，不轮询工具历史。
-- 结算后读取一次历史并显示两条调用。主分支 started_at_ms 记录链路正确回放开始时间及耗时（shell 8239ms、glob 7ms）。
-- 从原发送消息重新打开会采用持久 record ID；刷新页面恢复面板与两条已完成调用，无浏览器页面错误。
-- 空会话初始索引返回 404；手动刷新索引后提示消失，且不读取工具历史。运行中主截图拍摄于刷新后，sender-running.png 保留初始提示。本次未声称修复该既有行为。
-- 3,395 项相关单测通过：Core/遥测 538、ACP 回放 144、SDK 414、CLI Session/发送器/接口 1,135、Web Shell App/面板/trajectory 1,164。自动合并遗留的两处计时断言已修正，对应 51 项 trajectory 测试复跑通过。完整构建、类型检查、打包及集成修改的格式/静态检查通过。
+1,210 项 Web Shell 相关单测通过：App 1,038、工具调用 77、轨迹面板 26、时间轴视图 8、时间轴计算 10、轨迹构建 34、投影 17。完整仓库构建、类型检查、打包及提交钩子通过。
 
-不代表生产模型、真实 Git 操作或 Windows/Linux 验证，也未重复维护者的大会话调查。
+Chromium 使用构建后的真实 daemon 与打包 Web Shell，本地脚本模型提供 OpenAI 兼容响应，shell/glob 真实执行，无模拟 daemon 或响应拦截。运行中保存发送端选择且不轮询工具历史；结算后只读取一次历史；原消息重新打开采用持久 record ID；刷新恢复两条已完成记录。主分支时间轴绘制两条工具区间，点击可选中对应区间。截图已目视检查。
+
+首轮额外时间轴检查漏了关闭最后一个页签后重新打开右侧面板，导致超时；补全脚本后复跑。既有空会话初始索引提示通过手动刷新索引消除，不声称已修复。不代表生产模型、真实 Git 操作、大会话调查或 Windows/Linux 验证。
