@@ -1,0 +1,26 @@
+{
+  "source_repository": "QwenLM/qwen-code",
+  "source_commit": "dbb8fb574c814f96ad352853e28a9c62ec54448f",
+  "images": [
+    {
+      "path": "web-shell-files/entry.png",
+      "sha256": "68fd33dd5516efbce394ae36169c584521e190321be50b8902fa32e150c92fd2",
+      "provenance": "simulated daemon"
+    },
+    {
+      "path": "web-shell-files/markdown.png",
+      "sha256": "7764725cc3c3f86d6deaabad8afc53fa87c6401f5a36712adbdd33ef85d6bb77",
+      "provenance": "simulated daemon"
+    },
+    {
+      "path": "web-shell-files/source.png",
+      "sha256": "94245562d6e98314df2cd3c39194ebc969629f2939f53a97c613e7b822851e8c",
+      "provenance": "simulated daemon"
+    },
+    {
+      "path": "web-shell-files/drawer-reference.png",
+      "sha256": "27440d78673e42b9ed07ead0f1bcb4998ecf1c0ee67f073360faa908384fa239",
+      "provenance": "real daemon, no model request"
+    }
+  ]
+}
