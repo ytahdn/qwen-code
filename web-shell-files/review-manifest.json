@@ -1,0 +1,22 @@
+{
+  "source_commit": "f8bce38d19a083d0e2a049dd2b9eca285cac927b",
+  "date": "2026-10-12",
+  "images": [
+    {
+      "path": "web-shell-files/v2-drawer-tree-focus.png",
+      "sha256": "eb45651be7dc4a8ceb608703b8cd88d987f014282e3a80e1be7afc9b81652429",
+      "provenance": "Chromium actual Vite UI with simulated daemon; visually inspected; no model requests; no Git backend verification"
+    },
+    {
+      "path": "web-shell-files/v2-source-local-error.png",
+      "sha256": "17824d84070abca56011f482f9e73a5568f51b4861b5ca92d66bf43b2d377a65",
+      "provenance": "Chromium actual Vite UI with simulated daemon; visually inspected; no model requests; no Git backend verification"
+    },
+    {
+      "path": "web-shell-files/v2-source-recovered.png",
+      "sha256": "b3f32da8f8995f4983c2c7ac3dd3d9015936f36b82f9ce43ec5e3a405330fdba",
+      "provenance": "Chromium actual Vite UI with simulated daemon; visually inspected; no model requests; no Git backend verification"
+    }
+  ],
+  "notes": "Critical-review follow-up screenshots. Dev-only raw error details are visible in the local-error capture and are not rendered by the production library."
+}
