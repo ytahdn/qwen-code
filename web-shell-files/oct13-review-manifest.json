@@ -1,0 +1,27 @@
+{
+  "source_commit": "3fc059f12a7522db665d32b9d9422f1ed76d2c5a",
+  "date": "2026-10-13",
+  "images": [
+    {
+      "path": "web-shell-files/oct13-fixed-import-embedded.png",
+      "sha256": "b483acf6c99449e4340f1fcc1d3f16943759063437ad17a7f38977ebd69635ed",
+      "provenance": "Chromium actual Vite UI with simulated daemon; fault injection where labeled; visually inspected; no Git backend verification"
+    },
+    {
+      "path": "web-shell-files/oct13-fixed-pierre-local-error.png",
+      "sha256": "e85d641f30c51eaecfa0d52ded923fa42d3077d1adc13ca989882d5f15e578da",
+      "provenance": "Chromium actual Vite UI with simulated daemon; fault injection where labeled; visually inspected; no Git backend verification"
+    },
+    {
+      "path": "web-shell-files/oct13-fixed-pierre-recovered.png",
+      "sha256": "d0141cfb5e4164531d6e5090f54630a0cf4faa5e8d16703c3ac715bd1ea0aa21",
+      "provenance": "Chromium actual Vite UI with simulated daemon; fault injection where labeled; visually inspected; no Git backend verification"
+    },
+    {
+      "path": "web-shell-files/oct13-fixed-normal-files-posix.png",
+      "sha256": "0f281634a2dda2e7c9ade1dcbfd9852f84141248135593334a9832e74140b0b2",
+      "provenance": "Chromium actual Vite UI with simulated daemon; fault injection where labeled; visually inspected; no Git backend verification"
+    }
+  ],
+  "notes": "Files review follow-up. Embedded capture includes a synthetic unsaved host input; renderer captures inject a real internal Pierre fault. Development error detail is not production library UI."
+}
