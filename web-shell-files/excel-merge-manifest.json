@@ -1,0 +1,17 @@
+{
+  "source_commit": "46c746a27ea76d363d80338711db9fff831b368f",
+  "date": "2026-10-13",
+  "images": [
+    {
+      "path": "web-shell-files/excel-merge-after-secondary-new-tab.png",
+      "sha256": "fc8ee776fbf958b1966e8930bf1de0fb0bf13b53f87741ee84776305fe9e6cff",
+      "provenance": "Chromium actual Vite UI with simulated daemon; fault injection where labeled; visually inspected; no Git backend verification"
+    },
+    {
+      "path": "web-shell-files/excel-merge-cold-primary-new-tab.png",
+      "sha256": "a3bc2ec26075977fb171bd98937f3974b5e4edbf11957ec9cc048cd03109eea9",
+      "provenance": "Chromium actual Vite UI with simulated daemon; fault injection where labeled; visually inspected; no Git backend verification"
+    }
+  ],
+  "notes": "XLSX file-menu integration after merging main ef38ad7753. Actual shared spreadsheet UI with simulated primary/secondary daemons. Cold primary uses a separate temporary Vite cache; request-count assertions, not screenshot pixels, verify no dev reload."
+}
