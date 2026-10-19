@@ -1,0 +1,76 @@
+{
+  "baseline_commit": "81e83de6b6ec92684548314d1acd511fe301f1fa",
+  "baseline_method": "Exact baseline table component and CSS served in the synchronized host through a temporary Vite module route override.",
+  "daemon": "Simulated daemon, deterministic transcript; no real Git/backend operation tested.",
+  "clipboard_method": "Real native execCommand forwarding plus independent browser clipboard readback; app Clipboard API disabled on secure loopback to select the unavailable-API branch.",
+  "after_source_sha256": {
+    "packages/web-shell/client/components/messages/EnhancedMarkdownTable.tsx": "79a06ac0c11b047055162f709a03961617cf24fcf33cce9216657b4bab02eb24",
+    "packages/web-shell/client/components/messages/EnhancedMarkdownTable.module.css": "836b86f40314c4be363d1ba94d7d697d4b7a2803fd24f6634784a3ea094b4683",
+    "packages/web-shell/client/utils/clipboard.ts": "45743a7d61238aaa22d210987b50bd6fa84aa680495a802ccaa3b20f52a051d9",
+    "packages/web-shell/client/i18n.tsx": "2de134fc032ec2d5af4cb639a7e39c20b01ffcfa9d0cbbe5f2e3ddc34b63cbe8"
+  },
+  "legacy_log": "/tmp/table-legacy-clipboard-verified.log",
+  "screenshot_log": "/tmp/table-pr-final-copy-label-scoped.log",
+  "image_sha256": {
+    "current-390-fullscreen.png": "8fb518e66142e284b526b4095df4adc48871326de6e769d5d38d1f185613fbc8",
+    "current-390-inline.png": "ae1b13dbe3d8036631999fbd80d9f6b12d2ef8b7db832baf926a352d45994660",
+    "current-desktop-copy-menu.png": "fb1200abf21a08896bf9aed33c4d49a6074b5129412c6ceb17a084e5a9969ac9",
+    "current-desktop-density.png": "6196f04be83a345d9316fe1a64333ed0922762b02e150790a1d6c69c2c2df16e",
+    "current-desktop-toolbar.png": "53fa7a310a3b7e146b964917ef342cb785c6133306c34bb62bf7c4239e0d93a9",
+    "current-fullscreen-sort-drag.png": "66c591ea21990c681de13052241d2b62e7b3e3c3f7bc1d3bb12216366526f0d2",
+    "main-390-inline.png": "494951f93de181a6762d2820f2c3b04c599e2b6945ffacd1dfa0b5f478bf3485",
+    "main-desktop-density.png": "0220ddca69168e16a198b2db1e027b80b7435c0976f54c6632d0fdf242ef9308",
+    "main-desktop-toolbar.png": "f1e402f2c26a979713665022747e71a19fb08fdd4a10c8388e20165351b1cb95",
+    "main-fullscreen-sort-drag.png": "c24fbd38bec4ee9eda8bb567e562251c2edb83e8ca40e93adf80a405d5c54504"
+  },
+  "visual_qa": "All ten refreshed screenshots viewed; six after images show the final Copy / 复制 caption or its icon-only form.",
+  "image_dimensions": {
+    "current-390-fullscreen.png": {
+      "width": 390,
+      "height": 844
+    },
+    "current-390-inline.png": {
+      "width": 390,
+      "height": 844
+    },
+    "current-desktop-copy-menu.png": {
+      "width": 908,
+      "height": 370
+    },
+    "current-desktop-density.png": {
+      "width": 908,
+      "height": 370
+    },
+    "current-desktop-toolbar.png": {
+      "width": 908,
+      "height": 370
+    },
+    "current-fullscreen-sort-drag.png": {
+      "width": 1280,
+      "height": 800
+    },
+    "main-390-inline.png": {
+      "width": 390,
+      "height": 844
+    },
+    "main-desktop-density.png": {
+      "width": 908,
+      "height": 370
+    },
+    "main-desktop-toolbar.png": {
+      "width": 908,
+      "height": 370
+    },
+    "main-fullscreen-sort-drag.png": {
+      "width": 1280,
+      "height": 800
+    }
+  },
+  "toolbar_copy_label": {
+    "en": "Copy",
+    "zh-CN": "复制"
+  },
+  "capture_revision": "Refreshed after the toolbar Copy table / 复制表格 label was shortened to Copy / 复制.",
+  "implementation_commit": "3731df651c2d7acf36689ff2929d5bac92b26a4c",
+  "capture_head": "81e83de6b6ec92684548314d1acd511fe301f1fa"
+}
