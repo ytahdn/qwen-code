@@ -1,15 +1,16 @@
 {
-  "head": "929927576408a5b2242cbaf438cc921c74399d2f",
+  "head": "cd28ed784f5d879854b72765a211605ff8932c86",
   "date": "2026-10-21",
-  "method": "real loopback daemon + headless Chromium; one provider, no session or model prompt",
-  "detectionMs": 3431,
-  "offlineObservationMs": 54049,
-  "automaticRecoveryMs": 26113,
+  "method": "real loopback service + headless Chromium; one provider, no session or model prompt",
+  "detectionMs": 3607,
+  "offlineObservationMs": 54057,
+  "automaticRecoveryMs": 25830,
   "healthIntervalsMs": [
-    5004,
-    15003,
-    30000
+    5005,
+    15002,
+    30003
   ],
+  "fullPostBannerBusinessRequests": [],
   "checks": [
     {
       "name": "real-directory-entry-online",
@@ -18,12 +19,12 @@
     {
       "name": "welcome-detects-stop-without-first-prompt",
       "pass": true,
-      "delayMs": 3431
+      "delayMs": 3607
     },
     {
       "name": "persistent-localized-banner",
       "pass": true,
-      "text": "无法连接 daemon，自动刷新已暂停，正在尝试恢复。\n重试连接"
+      "text": "无法连接服务，自动刷新已暂停，正在尝试恢复。\n重试连接"
     },
     {
       "name": "draft-retained-offline",
@@ -33,21 +34,15 @@
       "name": "offline-business-requests-zero",
       "pass": true,
       "offlineBusiness": [],
-      "observationMs": 54049
+      "observationMs": 54057
     },
     {
       "name": "single-shared-health-5-15-30",
       "pass": true,
-      "healthTimes": [
-        1792549973175,
-        1792549978179,
-        1792549993182,
-        1792550023182
-      ],
       "healthGaps": [
-        5004,
-        15003,
-        30000
+        5005,
+        15002,
+        30003
       ]
     },
     {
@@ -57,7 +52,7 @@
     {
       "name": "automatic-recovery-without-reload-or-retry",
       "pass": true,
-      "delayMs": 26113
+      "delayMs": 25830
     },
     {
       "name": "draft-retained-after-recovery",
@@ -112,546 +107,546 @@
   ],
   "events": [
     {
-      "time": 3516,
+      "elapsedMs": 11660,
       "event": "request",
       "path": "/",
       "method": "GET"
     },
     {
-      "time": 4180,
+      "elapsedMs": 11668,
       "event": "response",
       "path": "/",
       "status": 200
     },
     {
-      "time": 4183,
+      "elapsedMs": 11673,
       "event": "request",
-      "path": "/assets/index-Pe4Q5YM4.js",
+      "path": "/assets/index-BKr10MEV.js",
       "method": "GET"
     },
     {
-      "time": 4183,
+      "elapsedMs": 11673,
       "event": "request",
       "path": "/assets/index-DzQJx35_.css",
       "method": "GET"
     },
     {
-      "time": 4185,
+      "elapsedMs": 11676,
       "event": "response",
       "path": "/assets/index-DzQJx35_.css",
       "status": 200
     },
     {
-      "time": 4259,
+      "elapsedMs": 11752,
       "event": "response",
-      "path": "/assets/index-Pe4Q5YM4.js",
+      "path": "/assets/index-BKr10MEV.js",
       "status": 200
     },
     {
-      "time": 4397,
+      "elapsedMs": 11901,
       "event": "request",
       "path": "/capabilities",
       "method": "GET"
     },
     {
-      "time": 4403,
+      "elapsedMs": 11911,
       "event": "response",
       "path": "/capabilities",
       "status": 401
     },
     {
-      "time": 4464,
+      "elapsedMs": 11986,
       "event": "request",
       "path": "/capabilities",
       "method": "GET"
     },
     {
-      "time": 4471,
+      "elapsedMs": 12010,
       "event": "response",
       "path": "/capabilities",
       "status": 200
     },
     {
-      "time": 4540,
+      "elapsedMs": 12080,
       "event": "request",
       "path": "/assets/default-aEtf0G7-.svg",
       "method": "GET"
     },
     {
-      "time": 4540,
+      "elapsedMs": 12080,
       "event": "request",
       "path": "/capabilities",
       "method": "GET"
     },
     {
-      "time": 4540,
+      "elapsedMs": 12080,
       "event": "request",
       "path": "/brand",
       "method": "GET"
     },
     {
-      "time": 4548,
+      "elapsedMs": 12088,
       "event": "response",
       "path": "/assets/default-aEtf0G7-.svg",
       "status": 200
     },
     {
-      "time": 4551,
+      "elapsedMs": 12089,
       "event": "response",
       "path": "/capabilities",
       "status": 200
     },
     {
-      "time": 4554,
+      "elapsedMs": 12092,
       "event": "response",
       "path": "/brand",
       "status": 200
     },
     {
-      "time": 4555,
+      "elapsedMs": 12097,
       "event": "request",
       "path": "/workspace/providers",
       "method": "GET"
     },
     {
-      "time": 4574,
+      "elapsedMs": 12120,
       "event": "request",
       "path": "/capabilities",
       "method": "GET"
     },
     {
-      "time": 4575,
+      "elapsedMs": 12121,
       "event": "request",
       "path": "/workspace/voice",
       "method": "GET"
     },
     {
-      "time": 4575,
+      "elapsedMs": 12121,
       "event": "request",
       "path": "/workspace/settings",
       "method": "GET"
     },
     {
-      "time": 4575,
+      "elapsedMs": 12122,
       "event": "request",
       "path": "/workspace/models",
       "method": "GET"
     },
     {
-      "time": 4575,
+      "elapsedMs": 12122,
       "event": "request",
       "path": "/workspaces/<fixture-workspace>/settings",
       "method": "GET"
     },
     {
-      "time": 4575,
+      "elapsedMs": 12122,
       "event": "request",
       "path": "/workspaces/<fixture-workspace>/git",
       "method": "GET"
     },
     {
-      "time": 4575,
+      "elapsedMs": 12122,
       "event": "request",
       "path": "/workspaces/<fixture-workspace>/git?wait=1",
       "method": "GET"
     },
     {
-      "time": 4575,
+      "elapsedMs": 12123,
       "event": "request",
       "path": "/daemon/update",
       "method": "GET"
     },
     {
-      "time": 4575,
+      "elapsedMs": 12123,
       "event": "request",
       "path": "/workspaces/<fixture-workspace>/sessions/live-state",
       "method": "GET"
     },
     {
-      "time": 4578,
+      "elapsedMs": 12123,
       "event": "response",
       "path": "/workspace/providers",
       "status": 200
     },
     {
-      "time": 4578,
+      "elapsedMs": 12123,
       "event": "response",
       "path": "/capabilities",
       "status": 200
     },
     {
-      "time": 4578,
+      "elapsedMs": 12124,
       "event": "response",
       "path": "/workspace/voice",
       "status": 200
     },
     {
-      "time": 4581,
-      "event": "response",
-      "path": "/workspace/settings",
-      "status": 200
-    },
-    {
-      "time": 4585,
-      "event": "response",
-      "path": "/workspaces/<fixture-workspace>/sessions/live-state",
-      "status": 200
-    },
-    {
-      "time": 4585,
+      "elapsedMs": 12124,
       "event": "response",
       "path": "/daemon/update",
       "status": 200
     },
     {
-      "time": 4587,
+      "elapsedMs": 12129,
       "event": "request",
       "path": "/standalone/sessions?size=50&archiveState=active",
       "method": "GET"
     },
     {
-      "time": 4587,
+      "elapsedMs": 12129,
+      "event": "response",
+      "path": "/workspace/settings",
+      "status": 200
+    },
+    {
+      "elapsedMs": 12147,
+      "event": "response",
+      "path": "/workspaces/<fixture-workspace>/sessions/live-state",
+      "status": 200
+    },
+    {
+      "elapsedMs": 12147,
       "event": "response",
       "path": "/workspace/models",
       "status": 200
     },
     {
-      "time": 4604,
-      "event": "request",
-      "path": "/workspaces/<fixture-workspace>/session-groups",
-      "method": "GET"
-    },
-    {
-      "time": 4604,
-      "event": "request",
-      "path": "/workspace/<fixture-workspace>/sessions?size=1000&archiveState=active&view=organized&group=all&sourceType=default",
-      "method": "GET"
-    },
-    {
-      "time": 4604,
-      "event": "request",
-      "path": "/workspace/<fixture-workspace>/sessions?size=1000&archiveState=active&view=organized&group=pinned&sourceType=default",
-      "method": "GET"
-    },
-    {
-      "time": 4604,
+      "elapsedMs": 12147,
       "event": "response",
       "path": "/workspaces/<fixture-workspace>/settings",
       "status": 200
     },
     {
-      "time": 4608,
+      "elapsedMs": 12147,
       "event": "response",
       "path": "/workspaces/<fixture-workspace>/git",
       "status": 200
     },
     {
-      "time": 4608,
+      "elapsedMs": 12147,
       "event": "response",
       "path": "/workspaces/<fixture-workspace>/git?wait=1",
       "status": 200
     },
     {
-      "time": 4609,
+      "elapsedMs": 12156,
+      "event": "request",
+      "path": "/workspaces/<fixture-workspace>/session-groups",
+      "method": "GET"
+    },
+    {
+      "elapsedMs": 12156,
+      "event": "request",
+      "path": "/workspace/<fixture-workspace>/sessions?size=1000&archiveState=active&view=organized&group=all&sourceType=default",
+      "method": "GET"
+    },
+    {
+      "elapsedMs": 12156,
+      "event": "request",
+      "path": "/workspace/<fixture-workspace>/sessions?size=1000&archiveState=active&view=organized&group=pinned&sourceType=default",
+      "method": "GET"
+    },
+    {
+      "elapsedMs": 12159,
       "event": "response",
       "path": "/workspaces/<fixture-workspace>/session-groups",
       "status": 200
     },
     {
-      "time": 4610,
+      "elapsedMs": 12160,
       "event": "response",
       "path": "/workspace/<fixture-workspace>/sessions?size=1000&archiveState=active&view=organized&group=all&sourceType=default",
       "status": 200
     },
     {
-      "time": 4610,
+      "elapsedMs": 12161,
       "event": "response",
       "path": "/workspace/<fixture-workspace>/sessions?size=1000&archiveState=active&view=organized&group=pinned&sourceType=default",
       "status": 200
     },
     {
-      "time": 4614,
+      "elapsedMs": 12161,
+      "event": "request",
+      "path": "/workspaces/<fixture-workspace>/sessions/live-state",
+      "method": "GET"
+    },
+    {
+      "elapsedMs": 12164,
+      "event": "response",
+      "path": "/workspaces/<fixture-workspace>/sessions/live-state",
+      "status": 200
+    },
+    {
+      "elapsedMs": 12167,
       "event": "response",
       "path": "/standalone/sessions?size=50&archiveState=active",
       "status": 200
     },
     {
-      "time": 4617,
-      "event": "request",
-      "path": "/workspaces/<fixture-workspace>/sessions/live-state",
-      "method": "GET"
-    },
-    {
-      "time": 4621,
-      "event": "response",
-      "path": "/workspaces/<fixture-workspace>/sessions/live-state",
-      "status": 200
-    },
-    {
-      "time": 6294,
+      "elapsedMs": 13841,
       "event": "request",
       "path": "/workspaces/<fixture-workspace>/list?path=.",
       "method": "GET"
     },
     {
-      "time": 6297,
+      "elapsedMs": 13847,
       "event": "response",
       "path": "/workspaces/<fixture-workspace>/list?path=.",
       "status": 200
     },
     {
-      "time": 6354,
+      "elapsedMs": 13954,
       "event": "daemon-stop",
-      "pid": 22945
+      "pid": 45022
     },
     {
-      "time": 9573,
+      "elapsedMs": 17117,
       "event": "request",
       "path": "/workspaces/<fixture-workspace>/sessions/live-state",
       "method": "GET"
     },
     {
-      "time": 9574,
+      "elapsedMs": 17118,
       "event": "failed",
       "path": "/workspaces/<fixture-workspace>/sessions/live-state",
       "error": "net::ERR_CONNECTION_REFUSED"
     },
     {
-      "time": 9582,
+      "elapsedMs": 17126,
       "event": "request",
       "path": "/health",
       "method": "GET"
     },
     {
-      "time": 9585,
+      "elapsedMs": 17130,
       "event": "failed",
       "path": "/health",
       "error": "net::ERR_CONNECTION_REFUSED"
     },
     {
-      "time": 9785,
+      "elapsedMs": 17561,
       "event": "banner-visible"
     },
     {
-      "time": 14586,
+      "elapsedMs": 22131,
       "event": "request",
       "path": "/health",
       "method": "GET"
     },
     {
-      "time": 14586,
+      "elapsedMs": 22131,
       "event": "failed",
       "path": "/health",
       "error": "net::ERR_CONNECTION_REFUSED"
     },
     {
-      "time": 29589,
+      "elapsedMs": 37133,
       "event": "request",
       "path": "/health",
       "method": "GET"
     },
     {
-      "time": 29589,
+      "elapsedMs": 37133,
       "event": "failed",
       "path": "/health",
       "error": "net::ERR_CONNECTION_REFUSED"
     },
     {
-      "time": 59589,
+      "elapsedMs": 67136,
       "event": "request",
       "path": "/health",
       "method": "GET"
     },
     {
-      "time": 59589,
+      "elapsedMs": 67136,
       "event": "failed",
       "path": "/health",
       "error": "net::ERR_CONNECTION_REFUSED"
     },
     {
-      "time": 63865,
+      "elapsedMs": 71646,
       "event": "daemon-restart"
     },
     {
-      "time": 89590,
+      "elapsedMs": 97137,
       "event": "request",
       "path": "/health",
       "method": "GET"
     },
     {
-      "time": 89594,
+      "elapsedMs": 97144,
       "event": "response",
       "path": "/health",
       "status": 200
     },
     {
-      "time": 89594,
+      "elapsedMs": 97144,
       "event": "request",
       "path": "/capabilities",
       "method": "GET"
     },
     {
-      "time": 89603,
+      "elapsedMs": 97154,
       "event": "response",
       "path": "/capabilities",
       "status": 200
     },
     {
-      "time": 89609,
+      "elapsedMs": 97158,
       "event": "request",
       "path": "/workspaces/<fixture-workspace>/sessions/live-state",
       "method": "GET"
     },
     {
-      "time": 89609,
+      "elapsedMs": 97158,
       "event": "request",
       "path": "/workspace/settings",
       "method": "GET"
     },
     {
-      "time": 89609,
+      "elapsedMs": 97158,
       "event": "request",
       "path": "/workspace/settings",
       "method": "GET"
     },
     {
-      "time": 89609,
+      "elapsedMs": 97158,
       "event": "request",
       "path": "/workspace/models",
       "method": "GET"
     },
     {
-      "time": 89609,
+      "elapsedMs": 97159,
       "event": "request",
       "path": "/workspace/models",
       "method": "GET"
     },
     {
-      "time": 89609,
+      "elapsedMs": 97159,
       "event": "request",
       "path": "/workspaces/<fixture-workspace>/git",
       "method": "GET"
     },
     {
-      "time": 89610,
+      "elapsedMs": 97159,
       "event": "request",
       "path": "/workspaces/<fixture-workspace>/git?wait=1",
       "method": "GET"
     },
     {
-      "time": 89614,
+      "elapsedMs": 97163,
       "event": "response",
       "path": "/workspaces/<fixture-workspace>/sessions/live-state",
       "status": 200
     },
     {
-      "time": 89616,
+      "elapsedMs": 97167,
       "event": "request",
       "path": "/workspaces/<fixture-workspace>/session-groups",
       "method": "GET"
     },
     {
-      "time": 89617,
+      "elapsedMs": 97167,
       "event": "request",
       "path": "/capabilities",
       "method": "GET"
     },
     {
-      "time": 89619,
+      "elapsedMs": 97170,
       "event": "response",
       "path": "/workspace/settings",
       "status": 200
     },
     {
-      "time": 89624,
+      "elapsedMs": 97175,
       "event": "response",
       "path": "/workspace/models",
       "status": 200
     },
     {
-      "time": 89624,
+      "elapsedMs": 97175,
       "event": "response",
       "path": "/workspaces/<fixture-workspace>/session-groups",
       "status": 200
     },
     {
-      "time": 89626,
+      "elapsedMs": 97179,
       "event": "response",
       "path": "/workspace/settings",
       "status": 200
     },
     {
-      "time": 89628,
+      "elapsedMs": 97181,
       "event": "response",
       "path": "/workspaces/<fixture-workspace>/git",
       "status": 200
     },
     {
-      "time": 89631,
+      "elapsedMs": 97183,
       "event": "response",
       "path": "/workspace/models",
       "status": 200
     },
     {
-      "time": 89633,
+      "elapsedMs": 97186,
       "event": "response",
       "path": "/workspaces/<fixture-workspace>/git?wait=1",
       "status": 200
     },
     {
-      "time": 89633,
+      "elapsedMs": 97186,
       "event": "response",
       "path": "/capabilities",
       "status": 200
     },
     {
-      "time": 89633,
+      "elapsedMs": 97187,
       "event": "request",
       "path": "/workspace/<fixture-workspace>/sessions?size=1000&archiveState=active&view=organized&group=pinned&sourceType=default",
       "method": "GET"
     },
     {
-      "time": 89633,
+      "elapsedMs": 97187,
       "event": "request",
       "path": "/workspace/<fixture-workspace>/sessions?size=1000&archiveState=active&view=organized&group=all&sourceType=default",
       "method": "GET"
     },
     {
-      "time": 89638,
+      "elapsedMs": 97190,
       "event": "response",
       "path": "/workspace/<fixture-workspace>/sessions?size=1000&archiveState=active&view=organized&group=pinned&sourceType=default",
       "status": 200
     },
     {
-      "time": 89638,
+      "elapsedMs": 97191,
       "event": "response",
       "path": "/workspace/<fixture-workspace>/sessions?size=1000&archiveState=active&view=organized&group=all&sourceType=default",
       "status": 200
     },
     {
-      "time": 89640,
+      "elapsedMs": 97192,
       "event": "request",
       "path": "/workspaces/<fixture-workspace>/sessions/live-state",
       "method": "GET"
     },
     {
-      "time": 89641,
+      "elapsedMs": 97193,
       "event": "response",
       "path": "/workspaces/<fixture-workspace>/sessions/live-state",
       "status": 200
     },
     {
-      "time": 89978,
+      "elapsedMs": 97476,
       "event": "banner-hidden"
     },
     {
-      "time": 92744,
+      "elapsedMs": 100252,
       "event": "request",
       "path": "/workspaces/<fixture-workspace>/list?path=.",
       "method": "GET"
     },
     {
-      "time": 92747,
+      "elapsedMs": 100270,
       "event": "response",
       "path": "/workspaces/<fixture-workspace>/list?path=.",
       "status": 200
@@ -660,27 +655,27 @@
   "pageErrors": [],
   "consoleErrors": [
     {
-      "time": 1792549967996,
+      "elapsedMs": 11911,
       "text": "Failed to load resource: the server responded with a status of 401 (Unauthorized)"
     },
     {
-      "time": 1792549973167,
+      "elapsedMs": 17118,
       "text": "Failed to load resource: net::ERR_CONNECTION_REFUSED"
     },
     {
-      "time": 1792549973178,
+      "elapsedMs": 17130,
       "text": "Failed to load resource: net::ERR_CONNECTION_REFUSED"
     },
     {
-      "time": 1792549978180,
+      "elapsedMs": 22132,
       "text": "Failed to load resource: net::ERR_CONNECTION_REFUSED"
     },
     {
-      "time": 1792549993182,
+      "elapsedMs": 37133,
       "text": "Failed to load resource: net::ERR_CONNECTION_REFUSED"
     },
     {
-      "time": 1792550023182,
+      "elapsedMs": 67136,
       "text": "Failed to load resource: net::ERR_CONNECTION_REFUSED"
     }
   ]
