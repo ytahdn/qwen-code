@@ -1,0 +1,80 @@
+{
+  "scope": "Compiled CLI product toHtml formatter with synthetic transcript records; actual Chromium; version-bound CDN requests intercepted to current local unmodified renderer/CSS bytes. Not an interactive /export command, real model, live session or CDN publication test.",
+  "head": "d68ff796481a3bee45bcf9bb96d538f6ca2cf2f6",
+  "checks": [
+    {
+      "name": "product-html-contains-version-bound-renderer-and-stylesheet",
+      "pass": true
+    },
+    {
+      "name": "render-complete-true",
+      "pass": true
+    },
+    {
+      "name": "user-message-visible",
+      "pass": true
+    },
+    {
+      "name": "assistant-markdown-heading-visible",
+      "pass": true
+    },
+    {
+      "name": "assistant-bold-text-visible",
+      "pass": true
+    },
+    {
+      "name": "assistant-code-text-visible",
+      "pass": true
+    },
+    {
+      "name": "no-javascript-errors",
+      "pass": true
+    },
+    {
+      "name": "no-console-errors-including-csp-sri",
+      "pass": true
+    },
+    {
+      "name": "no-unexpected-network-requests",
+      "pass": true
+    }
+  ],
+  "resources": [
+    {
+      "url": "https://unpkg.com/@qwen-code/qwen-code@0.25.3/export-transcript-document.js",
+      "bytes": 2050019,
+      "sha256": "91da5af5bd94373e0e77c7fb65949a1c7c5fa6c7432a6b775490d2760eee6a68"
+    },
+    {
+      "url": "https://unpkg.com/@qwen-code/qwen-code@0.25.3/export-transcript-document.css",
+      "bytes": 2389124,
+      "sha256": "7e261503377fe58a7a79010340617f4738910b521afdbaebff2dd2522fb05228"
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "unexpectedRequests": [],
+  "screenshot": "export-transcript-local-renderer.png",
+  "status": "PASSED",
+  "cleanup": {
+    "browserClosed": true,
+    "listenersStarted": 0,
+    "servicesOperated": 0
+  },
+  "guardMeasurement": {
+    "currentBytes": 2050022,
+    "mainParentBytes": 2048235,
+    "mainParentCommit": "65051590d90c3b043b94e65a56e3187f9e4d9f1b",
+    "budgetBytes": 2052000,
+    "sameInputCount": 2174,
+    "thirdPartySourcesUnchanged": true
+  },
+  "localVerification": {
+    "build": "passed",
+    "typecheck": "passed",
+    "bundle": "passed",
+    "relatedTestsPassed": 18,
+    "fullE2ERerun": false,
+    "previousLocalSplitHoverIssue": "unresolved; prior evidence retained"
+  }
+}
