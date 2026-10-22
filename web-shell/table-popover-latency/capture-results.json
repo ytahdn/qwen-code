@@ -1,0 +1,149 @@
+{
+  "capturedAt": "2026-10-22T07:45:43.941Z",
+  "simulation": "mock daemon; local browser UI only; no live DataWorks or Git backend validation",
+  "fixedCommit": "d389055b6357f994987e2f3fe3725d97cceee661",
+  "baselineCommit": "240eecf6178bb5be43061c0327e3cd62273a2695",
+  "baselineScope": "Original-main table module frozen through Vite load plugin, with remaining runtime shared from fixed worktree",
+  "baselineTableSha256": "79a06ac0c11b047055162f709a03961617cf24fcf33cce9216657b4bab02eb24",
+  "fixedTableSha256": "acd0c2a4a91f470c107432b97ddeab8717e3ab22f692a061ad5c8dd2ae57c3d9",
+  "fixture": {
+    "rows": 76,
+    "columns": 3,
+    "markdownSha256": "0ebeac5dfad9406fc9aaa828dec1db29c83507799dc8b00dd635c9ca7a44b17e",
+    "language": "en",
+    "theme": "light",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    }
+  },
+  "command": "npx playwright test --config .qwen/scripts/table-popup-pr-capture.config.ts",
+  "records": [
+    {
+      "version": "baseline",
+      "sourceCommit": "240eecf6178bb5be43061c0327e3cd62273a2695",
+      "popup": "copy",
+      "screenshot": ".qwen/pr-drafts/table-popup-evidence/baseline-copy.png",
+      "pointerEvents": "none",
+      "scrollLocked": "1",
+      "rows": 76,
+      "simulatedDaemon": true,
+      "pngSha256": "852b61391b6a6910f51310ec873583ad5896f859108bfb9497ac925da50dc8cd",
+      "bytes": 80432
+    },
+    {
+      "version": "baseline",
+      "sourceCommit": "240eecf6178bb5be43061c0327e3cd62273a2695",
+      "popup": "density",
+      "screenshot": ".qwen/pr-drafts/table-popup-evidence/baseline-density.png",
+      "pointerEvents": "none",
+      "scrollLocked": "1",
+      "rows": 76,
+      "simulatedDaemon": true,
+      "pngSha256": "2df4c917827ea5d2b4a9f0337577896e6ad6a602187323c7e61bda4fa3c97a32",
+      "bytes": 80491
+    },
+    {
+      "version": "baseline",
+      "sourceCommit": "240eecf6178bb5be43061c0327e3cd62273a2695",
+      "popup": "text-operator",
+      "screenshot": ".qwen/pr-drafts/table-popup-evidence/baseline-text-operator.png",
+      "pointerEvents": "none",
+      "scrollLocked": "1",
+      "rows": 76,
+      "simulatedDaemon": true,
+      "pngSha256": "f0c46dfb8dc06c36898864ca8fc9441d75a171307cd49ae88e7f1662fb0302c5",
+      "bytes": 91626
+    },
+    {
+      "version": "baseline",
+      "sourceCommit": "240eecf6178bb5be43061c0327e3cd62273a2695",
+      "popup": "number-operator",
+      "screenshot": ".qwen/pr-drafts/table-popup-evidence/baseline-number-operator.png",
+      "pointerEvents": "none",
+      "scrollLocked": "1",
+      "rows": 76,
+      "simulatedDaemon": true,
+      "pngSha256": "185805be64e3f2258fe663bbdeb4ad63684de0c90b434e05af9d6f221534f507",
+      "bytes": 93786
+    },
+    {
+      "version": "baseline",
+      "check": "cell-dialog-retains-modal-lock",
+      "pointerEvents": "none",
+      "scrollLocked": "1"
+    },
+    {
+      "version": "baseline",
+      "check": "fullscreen-retains-modal-lock",
+      "pointerEvents": "none",
+      "scrollLocked": "1"
+    },
+    {
+      "version": "fixed",
+      "sourceCommit": "d389055b6357f994987e2f3fe3725d97cceee661",
+      "popup": "copy",
+      "screenshot": ".qwen/pr-drafts/table-popup-evidence/fixed-copy.png",
+      "pointerEvents": "",
+      "scrollLocked": null,
+      "rows": 76,
+      "simulatedDaemon": true,
+      "pngSha256": "901947b5dbf0f7ad083121d658c1ad9151d40c261b12a28c2319a6305ecfc225",
+      "bytes": 80416
+    },
+    {
+      "version": "fixed",
+      "sourceCommit": "d389055b6357f994987e2f3fe3725d97cceee661",
+      "popup": "density",
+      "screenshot": ".qwen/pr-drafts/table-popup-evidence/fixed-density.png",
+      "pointerEvents": "",
+      "scrollLocked": null,
+      "rows": 76,
+      "simulatedDaemon": true,
+      "pngSha256": "d68f917e0f691b7e11702fedb9d25d9e1cd3754022125e54365e064bc8e9c50d",
+      "bytes": 80479
+    },
+    {
+      "version": "fixed",
+      "sourceCommit": "d389055b6357f994987e2f3fe3725d97cceee661",
+      "popup": "text-operator",
+      "screenshot": ".qwen/pr-drafts/table-popup-evidence/fixed-text-operator.png",
+      "pointerEvents": "",
+      "scrollLocked": null,
+      "rows": 76,
+      "simulatedDaemon": true,
+      "pngSha256": "0b296f0f8cb8ae67fe1196dd94484e5a38cac2a0b71a9ee62215ee33401c750d",
+      "bytes": 91698
+    },
+    {
+      "version": "fixed",
+      "sourceCommit": "d389055b6357f994987e2f3fe3725d97cceee661",
+      "popup": "number-operator",
+      "screenshot": ".qwen/pr-drafts/table-popup-evidence/fixed-number-operator.png",
+      "pointerEvents": "",
+      "scrollLocked": null,
+      "rows": 76,
+      "simulatedDaemon": true,
+      "pngSha256": "def2f4364b7ba577f1595796e7c9ee467856fc39318fff35a58e7012cd6ef0da",
+      "bytes": 94603
+    },
+    {
+      "version": "fixed",
+      "check": "cell-dialog-retains-modal-lock",
+      "pointerEvents": "none",
+      "scrollLocked": "1"
+    },
+    {
+      "version": "fixed",
+      "check": "fullscreen-retains-modal-lock",
+      "pointerEvents": "none",
+      "scrollLocked": "1"
+    }
+  ],
+  "visualInspection": {
+    "allEightInspected": true,
+    "actualBrowserScreenshots": true,
+    "generatedOrComposited": false,
+    "result": "Menus readable, checked choices visible, portal stacking intact; no clipping or lost styling observed."
+  }
+}

@@ -1,0 +1,4628 @@
+{
+  "commit": "d389055b6357f994987e2f3fe3725d97cceee661",
+  "results": [
+    {
+      "name": "copy",
+      "repeat": 0,
+      "rapidReopenVisible": true,
+      "normalSameTriggerClose": true
+    },
+    {
+      "name": "copy",
+      "repeat": 1,
+      "rapidReopenVisible": true,
+      "normalSameTriggerClose": true
+    },
+    {
+      "name": "copy",
+      "repeat": 2,
+      "rapidReopenVisible": true,
+      "normalSameTriggerClose": true
+    },
+    {
+      "name": "density",
+      "repeat": 0,
+      "rapidReopenVisible": true,
+      "normalSameTriggerClose": true
+    },
+    {
+      "name": "density",
+      "repeat": 1,
+      "rapidReopenVisible": true,
+      "normalSameTriggerClose": true
+    },
+    {
+      "name": "density",
+      "repeat": 2,
+      "rapidReopenVisible": true,
+      "normalSameTriggerClose": true
+    },
+    {
+      "name": "text-operator",
+      "repeat": 0,
+      "rapidReopenVisible": true,
+      "normalSameTriggerClose": true
+    },
+    {
+      "name": "text-operator",
+      "repeat": 1,
+      "rapidReopenVisible": true,
+      "normalSameTriggerClose": true
+    },
+    {
+      "name": "text-operator",
+      "repeat": 2,
+      "rapidReopenVisible": true,
+      "normalSameTriggerClose": true
+    },
+    {
+      "name": "number-operator",
+      "repeat": 0,
+      "rapidReopenVisible": true,
+      "normalSameTriggerClose": true
+    },
+    {
+      "name": "number-operator",
+      "repeat": 1,
+      "rapidReopenVisible": true,
+      "normalSameTriggerClose": true
+    },
+    {
+      "name": "number-operator",
+      "repeat": 2,
+      "rapidReopenVisible": true,
+      "normalSameTriggerClose": true
+    }
+  ],
+  "trace": [
+    {
+      "time": 6131,
+      "step": "copy/0/open",
+      "type": "native-pointerdown",
+      "menus": [],
+      "id": 1,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "SPAN[][]Copy",
+      "path": [
+        "SPAN[][]Copy",
+        "BUTTON[dropdown-menu-trigger][]Copy",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Copy"
+    },
+    {
+      "time": 6168.299999952316,
+      "step": "copy/0/open",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "SPAN[][]Copy"
+    },
+    {
+      "time": 6215.699999928474,
+      "step": "copy/0/select-reopen",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "open"
+        }
+      ],
+      "id": 2,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "DIV[dropdown-menu-item][menuitem]Copy text",
+      "path": [
+        "DIV[dropdown-menu-item][menuitem]Copy text",
+        "DIV[dropdown-menu-content][menu]Copy",
+        "DIV[][]Copy textCopy Markdown",
+        "DIV[][]Copy textCopy Markdown",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "other"
+    },
+    {
+      "time": 6236.699999928474,
+      "step": "copy/0/select-reopen",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "DIV[dropdown-menu-item][menuitem]Copy text"
+    },
+    {
+      "time": 6239.199999928474,
+      "step": "copy/0/select-reopen",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "closed"
+        }
+      ]
+    },
+    {
+      "time": 6273.799999952316,
+      "step": "copy/0/select-reopen",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "closed"
+        }
+      ],
+      "id": 3,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "SPAN[][]Copied!",
+      "path": [
+        "SPAN[][]Copied!",
+        "BUTTON[dropdown-menu-trigger][]Copy",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Copy"
+    },
+    {
+      "time": 6275.899999976158,
+      "step": "copy/0/select-reopen",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "open"
+        }
+      ]
+    },
+    {
+      "time": 6277.099999904633,
+      "step": "copy/0/select-reopen",
+      "type": "dismissableLayer.pointerDownOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "open"
+        }
+      ],
+      "id": 3,
+      "originalType": "pointerdown",
+      "pointerType": "touch",
+      "isTrusted": true,
+      "originalTarget": "SPAN[][]Copied!",
+      "originalPath": [
+        "SPAN[][]Copied!",
+        "BUTTON[dropdown-menu-trigger][]Copy",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 27,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 6277.299999952316,
+      "step": "copy/0/select-reopen",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "open"
+        }
+      ],
+      "id": 3,
+      "defaultPrevented": true,
+      "pathLength": 27
+    },
+    {
+      "time": 6298.699999928474,
+      "step": "copy/0/select-reopen",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "SPAN[][]Copied!"
+    },
+    {
+      "time": 6348.599999904633,
+      "step": "copy/0/tap-same-trigger-close",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "open"
+        }
+      ],
+      "id": 4,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "SPAN[][]Copied!",
+      "path": [
+        "SPAN[][]Copied!",
+        "BUTTON[dropdown-menu-trigger][]Copy",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Copy"
+    },
+    {
+      "time": 6350.799999952316,
+      "step": "copy/0/tap-same-trigger-close",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "closed"
+        }
+      ]
+    },
+    {
+      "time": 6351.599999904633,
+      "step": "copy/0/tap-same-trigger-close",
+      "type": "dismissableLayer.pointerDownOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "closed"
+        }
+      ],
+      "id": 4,
+      "originalType": "pointerdown",
+      "pointerType": "touch",
+      "isTrusted": true,
+      "originalTarget": "SPAN[][]Copied!",
+      "originalPath": [
+        "SPAN[][]Copied!",
+        "BUTTON[dropdown-menu-trigger][]Copy",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 27,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 6351.699999928474,
+      "step": "copy/0/tap-same-trigger-close",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "closed"
+        }
+      ],
+      "id": 4,
+      "defaultPrevented": true,
+      "pathLength": 27
+    },
+    {
+      "time": 6374.399999976158,
+      "step": "copy/0/tap-same-trigger-close",
+      "type": "dismissableLayer.focusOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "closed"
+        }
+      ],
+      "originalType": "focusin",
+      "isTrusted": true,
+      "originalTarget": "BUTTON[dropdown-menu-trigger][]Copy",
+      "originalPath": [
+        "BUTTON[dropdown-menu-trigger][]Copy",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 26,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 6374.599999904633,
+      "step": "copy/0/tap-same-trigger-close",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "closed"
+        }
+      ],
+      "defaultPrevented": true,
+      "pathLength": 26
+    },
+    {
+      "time": 6375.299999952316,
+      "step": "copy/0/tap-same-trigger-close",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "closed"
+        }
+      ],
+      "isTrusted": true,
+      "target": "SPAN[][]Copied!"
+    },
+    {
+      "time": 6490.699999928474,
+      "step": "copy/1/open",
+      "type": "native-pointerdown",
+      "menus": [],
+      "id": 5,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "SPAN[][]Copied!",
+      "path": [
+        "SPAN[][]Copied!",
+        "BUTTON[dropdown-menu-trigger][]Copy",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Copy"
+    },
+    {
+      "time": 6514.799999952316,
+      "step": "copy/1/open",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "SPAN[][]Copied!"
+    },
+    {
+      "time": 6548.699999928474,
+      "step": "copy/1/select-reopen",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "open"
+        }
+      ],
+      "id": 6,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "DIV[dropdown-menu-item][menuitem]Copy text",
+      "path": [
+        "DIV[dropdown-menu-item][menuitem]Copy text",
+        "DIV[dropdown-menu-content][menu]Copy",
+        "DIV[][]Copy textCopy Markdown",
+        "DIV[][]Copy textCopy Markdown",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "other"
+    },
+    {
+      "time": 6568.899999976158,
+      "step": "copy/1/select-reopen",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "DIV[dropdown-menu-item][menuitem]Copy text"
+    },
+    {
+      "time": 6571,
+      "step": "copy/1/select-reopen",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "closed"
+        }
+      ]
+    },
+    {
+      "time": 6590.299999952316,
+      "step": "copy/1/select-reopen",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "closed"
+        }
+      ],
+      "id": 7,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "SPAN[][]Copied!",
+      "path": [
+        "SPAN[][]Copied!",
+        "BUTTON[dropdown-menu-trigger][]Copy",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Copy"
+    },
+    {
+      "time": 6592.399999976158,
+      "step": "copy/1/select-reopen",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "open"
+        }
+      ]
+    },
+    {
+      "time": 6593.5,
+      "step": "copy/1/select-reopen",
+      "type": "dismissableLayer.pointerDownOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "open"
+        }
+      ],
+      "id": 7,
+      "originalType": "pointerdown",
+      "pointerType": "touch",
+      "isTrusted": true,
+      "originalTarget": "SPAN[][]Copied!",
+      "originalPath": [
+        "SPAN[][]Copied!",
+        "BUTTON[dropdown-menu-trigger][]Copy",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 27,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 6593.5,
+      "step": "copy/1/select-reopen",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "open"
+        }
+      ],
+      "id": 7,
+      "defaultPrevented": true,
+      "pathLength": 27
+    },
+    {
+      "time": 6611.799999952316,
+      "step": "copy/1/select-reopen",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "SPAN[][]Copied!"
+    },
+    {
+      "time": 6640.599999904633,
+      "step": "copy/1/tap-same-trigger-close",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "open"
+        }
+      ],
+      "id": 8,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "SPAN[][]Copied!",
+      "path": [
+        "SPAN[][]Copied!",
+        "BUTTON[dropdown-menu-trigger][]Copy",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Copy"
+    },
+    {
+      "time": 6644.699999928474,
+      "step": "copy/1/tap-same-trigger-close",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "closed"
+        }
+      ]
+    },
+    {
+      "time": 6645.799999952316,
+      "step": "copy/1/tap-same-trigger-close",
+      "type": "dismissableLayer.pointerDownOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "closed"
+        }
+      ],
+      "id": 8,
+      "originalType": "pointerdown",
+      "pointerType": "touch",
+      "isTrusted": true,
+      "originalTarget": "SPAN[][]Copied!",
+      "originalPath": [
+        "SPAN[][]Copied!",
+        "BUTTON[dropdown-menu-trigger][]Copy",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 27,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 6645.899999976158,
+      "step": "copy/1/tap-same-trigger-close",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "closed"
+        }
+      ],
+      "id": 8,
+      "defaultPrevented": true,
+      "pathLength": 27
+    },
+    {
+      "time": 6665.699999928474,
+      "step": "copy/1/tap-same-trigger-close",
+      "type": "dismissableLayer.focusOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "closed"
+        }
+      ],
+      "originalType": "focusin",
+      "isTrusted": true,
+      "originalTarget": "BUTTON[dropdown-menu-trigger][]Copy",
+      "originalPath": [
+        "BUTTON[dropdown-menu-trigger][]Copy",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 26,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 6665.899999976158,
+      "step": "copy/1/tap-same-trigger-close",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "closed"
+        }
+      ],
+      "defaultPrevented": true,
+      "pathLength": 26
+    },
+    {
+      "time": 6666.199999928474,
+      "step": "copy/1/tap-same-trigger-close",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "closed"
+        }
+      ],
+      "isTrusted": true,
+      "target": "SPAN[][]Copied!"
+    },
+    {
+      "time": 6866.199999928474,
+      "step": "copy/2/open",
+      "type": "native-pointerdown",
+      "menus": [],
+      "id": 9,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "SPAN[][]Copied!",
+      "path": [
+        "SPAN[][]Copied!",
+        "BUTTON[dropdown-menu-trigger][]Copy",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Copy"
+    },
+    {
+      "time": 6891.799999952316,
+      "step": "copy/2/open",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "SPAN[][]Copied!"
+    },
+    {
+      "time": 6915.099999904633,
+      "step": "copy/2/select-reopen",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "open"
+        }
+      ],
+      "id": 10,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "DIV[dropdown-menu-item][menuitem]Copy text",
+      "path": [
+        "DIV[dropdown-menu-item][menuitem]Copy text",
+        "DIV[dropdown-menu-content][menu]Copy",
+        "DIV[][]Copy textCopy Markdown",
+        "DIV[][]Copy textCopy Markdown",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "other"
+    },
+    {
+      "time": 6935.799999952316,
+      "step": "copy/2/select-reopen",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "DIV[dropdown-menu-item][menuitem]Copy text"
+    },
+    {
+      "time": 6939.099999904633,
+      "step": "copy/2/select-reopen",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "closed"
+        }
+      ]
+    },
+    {
+      "time": 6957.5,
+      "step": "copy/2/select-reopen",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "closed"
+        }
+      ],
+      "id": 11,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "SPAN[][]Copied!",
+      "path": [
+        "SPAN[][]Copied!",
+        "BUTTON[dropdown-menu-trigger][]Copy",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Copy"
+    },
+    {
+      "time": 6961,
+      "step": "copy/2/select-reopen",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "open"
+        }
+      ]
+    },
+    {
+      "time": 6962,
+      "step": "copy/2/select-reopen",
+      "type": "dismissableLayer.pointerDownOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "open"
+        }
+      ],
+      "id": 11,
+      "originalType": "pointerdown",
+      "pointerType": "touch",
+      "isTrusted": true,
+      "originalTarget": "SPAN[][]Copied!",
+      "originalPath": [
+        "SPAN[][]Copied!",
+        "BUTTON[dropdown-menu-trigger][]Copy",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 27,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 6962.099999904633,
+      "step": "copy/2/select-reopen",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "open"
+        }
+      ],
+      "id": 11,
+      "defaultPrevented": true,
+      "pathLength": 27
+    },
+    {
+      "time": 6980.399999976158,
+      "step": "copy/2/select-reopen",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "SPAN[][]Copied!"
+    },
+    {
+      "time": 7014.799999952316,
+      "step": "copy/2/tap-same-trigger-close",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "open"
+        }
+      ],
+      "id": 12,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "SPAN[][]Copied!",
+      "path": [
+        "SPAN[][]Copied!",
+        "BUTTON[dropdown-menu-trigger][]Copy",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Copy"
+    },
+    {
+      "time": 7018.399999976158,
+      "step": "copy/2/tap-same-trigger-close",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "closed"
+        }
+      ]
+    },
+    {
+      "time": 7019.5,
+      "step": "copy/2/tap-same-trigger-close",
+      "type": "dismissableLayer.pointerDownOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "closed"
+        }
+      ],
+      "id": 12,
+      "originalType": "pointerdown",
+      "pointerType": "touch",
+      "isTrusted": true,
+      "originalTarget": "SPAN[][]Copied!",
+      "originalPath": [
+        "SPAN[][]Copied!",
+        "BUTTON[dropdown-menu-trigger][]Copy",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 27,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 7019.5,
+      "step": "copy/2/tap-same-trigger-close",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "closed"
+        }
+      ],
+      "id": 12,
+      "defaultPrevented": true,
+      "pathLength": 27
+    },
+    {
+      "time": 7039.299999952316,
+      "step": "copy/2/tap-same-trigger-close",
+      "type": "dismissableLayer.focusOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "closed"
+        }
+      ],
+      "originalType": "focusin",
+      "isTrusted": true,
+      "originalTarget": "BUTTON[dropdown-menu-trigger][]Copy",
+      "originalPath": [
+        "BUTTON[dropdown-menu-trigger][]Copy",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 26,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 7039.5,
+      "step": "copy/2/tap-same-trigger-close",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "closed"
+        }
+      ],
+      "defaultPrevented": true,
+      "pathLength": 26
+    },
+    {
+      "time": 7039.799999952316,
+      "step": "copy/2/tap-same-trigger-close",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Copy",
+          "state": "closed"
+        }
+      ],
+      "isTrusted": true,
+      "target": "SPAN[][]Copied!"
+    },
+    {
+      "time": 7148.399999976158,
+      "step": "density/0/open",
+      "type": "native-pointerdown",
+      "menus": [],
+      "id": 13,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "SPAN[][]Standard density",
+      "path": [
+        "SPAN[][]Standard density",
+        "BUTTON[dropdown-menu-trigger][]Table density",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Table density"
+    },
+    {
+      "time": 7176.399999976158,
+      "step": "density/0/open",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "SPAN[][]Standard density"
+    },
+    {
+      "time": 7207.399999976158,
+      "step": "density/0/select-reopen",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "open"
+        }
+      ],
+      "id": 14,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "DIV[dropdown-menu-radio-item][menuitemradio]Compact",
+      "path": [
+        "DIV[dropdown-menu-radio-item][menuitemradio]Compact",
+        "DIV[dropdown-menu-radio-group][group]StandardCompactComfortabl",
+        "DIV[dropdown-menu-content][menu]Table density",
+        "DIV[][]StandardCompactComfortabl",
+        "DIV[][]StandardCompactComfortabl",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "other"
+    },
+    {
+      "time": 7229.399999976158,
+      "step": "density/0/select-reopen",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "DIV[dropdown-menu-radio-item][menuitemradio]Compact"
+    },
+    {
+      "time": 7391.799999952316,
+      "step": "density/0/select-reopen",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "closed"
+        }
+      ]
+    },
+    {
+      "time": 7407,
+      "step": "density/0/select-reopen",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "closed"
+        }
+      ],
+      "id": 15,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "SPAN[][]Compact density",
+      "path": [
+        "SPAN[][]Compact density",
+        "BUTTON[dropdown-menu-trigger][]Table density",
+        "DIV[][]76 rowsCompact densityCus",
+        "DIV[][]76 rowsCompact densityCus",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Table density"
+    },
+    {
+      "time": 7410.5,
+      "step": "density/0/select-reopen",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "open"
+        }
+      ]
+    },
+    {
+      "time": 7411.099999904633,
+      "step": "density/0/select-reopen",
+      "type": "dismissableLayer.pointerDownOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "open"
+        }
+      ],
+      "id": 15,
+      "originalType": "pointerdown",
+      "pointerType": "touch",
+      "isTrusted": true,
+      "originalTarget": "SPAN[][]Compact density",
+      "originalPath": [
+        "SPAN[][]Compact density",
+        "BUTTON[dropdown-menu-trigger][]Table density",
+        "DIV[][]76 rowsCompact densityCus",
+        "DIV[][]76 rowsCompact densityCus",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 27,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 7411.299999952316,
+      "step": "density/0/select-reopen",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "open"
+        }
+      ],
+      "id": 15,
+      "defaultPrevented": true,
+      "pathLength": 27
+    },
+    {
+      "time": 7429.899999976158,
+      "step": "density/0/select-reopen",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "SPAN[][]Compact density"
+    },
+    {
+      "time": 7465.299999952316,
+      "step": "density/0/tap-same-trigger-close",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "open"
+        }
+      ],
+      "id": 16,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "SPAN[][]Compact density",
+      "path": [
+        "SPAN[][]Compact density",
+        "BUTTON[dropdown-menu-trigger][]Table density",
+        "DIV[][]76 rowsCompact densityCus",
+        "DIV[][]76 rowsCompact densityCus",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Table density"
+    },
+    {
+      "time": 7468.899999976158,
+      "step": "density/0/tap-same-trigger-close",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "closed"
+        }
+      ]
+    },
+    {
+      "time": 7469.699999928474,
+      "step": "density/0/tap-same-trigger-close",
+      "type": "dismissableLayer.pointerDownOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "closed"
+        }
+      ],
+      "id": 16,
+      "originalType": "pointerdown",
+      "pointerType": "touch",
+      "isTrusted": true,
+      "originalTarget": "SPAN[][]Compact density",
+      "originalPath": [
+        "SPAN[][]Compact density",
+        "BUTTON[dropdown-menu-trigger][]Table density",
+        "DIV[][]76 rowsCompact densityCus",
+        "DIV[][]76 rowsCompact densityCus",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 27,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 7469.799999952316,
+      "step": "density/0/tap-same-trigger-close",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "closed"
+        }
+      ],
+      "id": 16,
+      "defaultPrevented": true,
+      "pathLength": 27
+    },
+    {
+      "time": 7488.399999976158,
+      "step": "density/0/tap-same-trigger-close",
+      "type": "dismissableLayer.focusOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "closed"
+        }
+      ],
+      "originalType": "focusin",
+      "isTrusted": true,
+      "originalTarget": "BUTTON[dropdown-menu-trigger][]Table density",
+      "originalPath": [
+        "BUTTON[dropdown-menu-trigger][]Table density",
+        "DIV[][]76 rowsCompact densityCus",
+        "DIV[][]76 rowsCompact densityCus",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 26,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 7488.5,
+      "step": "density/0/tap-same-trigger-close",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "closed"
+        }
+      ],
+      "defaultPrevented": true,
+      "pathLength": 26
+    },
+    {
+      "time": 7488.899999976158,
+      "step": "density/0/tap-same-trigger-close",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "closed"
+        }
+      ],
+      "isTrusted": true,
+      "target": "SPAN[][]Compact density"
+    },
+    {
+      "time": 7598.799999952316,
+      "step": "density/1/open",
+      "type": "native-pointerdown",
+      "menus": [],
+      "id": 17,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "SPAN[][]Compact density",
+      "path": [
+        "SPAN[][]Compact density",
+        "BUTTON[dropdown-menu-trigger][]Table density",
+        "DIV[][]76 rowsCompact densityCus",
+        "DIV[][]76 rowsCompact densityCus",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Table density"
+    },
+    {
+      "time": 7629,
+      "step": "density/1/open",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "SPAN[][]Compact density"
+    },
+    {
+      "time": 7657.099999904633,
+      "step": "density/1/select-reopen",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "open"
+        }
+      ],
+      "id": 18,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "DIV[dropdown-menu-radio-item][menuitemradio]Standard",
+      "path": [
+        "DIV[dropdown-menu-radio-item][menuitemradio]Standard",
+        "DIV[dropdown-menu-radio-group][group]StandardCompactComfortabl",
+        "DIV[dropdown-menu-content][menu]Table density",
+        "DIV[][]StandardCompactComfortabl",
+        "DIV[][]StandardCompactComfortabl",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "other"
+    },
+    {
+      "time": 7677.899999976158,
+      "step": "density/1/select-reopen",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "DIV[dropdown-menu-radio-item][menuitemradio]Standard"
+    },
+    {
+      "time": 7831.799999952316,
+      "step": "density/1/select-reopen",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "closed"
+        }
+      ]
+    },
+    {
+      "time": 7840.799999952316,
+      "step": "density/1/select-reopen",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "closed"
+        }
+      ],
+      "id": 19,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "SPAN[][]Standard density",
+      "path": [
+        "SPAN[][]Standard density",
+        "BUTTON[dropdown-menu-trigger][]Table density",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Table density"
+    },
+    {
+      "time": 7844.199999928474,
+      "step": "density/1/select-reopen",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "open"
+        }
+      ]
+    },
+    {
+      "time": 7845.099999904633,
+      "step": "density/1/select-reopen",
+      "type": "dismissableLayer.pointerDownOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "open"
+        }
+      ],
+      "id": 19,
+      "originalType": "pointerdown",
+      "pointerType": "touch",
+      "isTrusted": true,
+      "originalTarget": "SPAN[][]Standard density",
+      "originalPath": [
+        "SPAN[][]Standard density",
+        "BUTTON[dropdown-menu-trigger][]Table density",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 27,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 7845.199999928474,
+      "step": "density/1/select-reopen",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "open"
+        }
+      ],
+      "id": 19,
+      "defaultPrevented": true,
+      "pathLength": 27
+    },
+    {
+      "time": 7862.899999976158,
+      "step": "density/1/select-reopen",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "SPAN[][]Standard density"
+    },
+    {
+      "time": 7898.699999928474,
+      "step": "density/1/tap-same-trigger-close",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "open"
+        }
+      ],
+      "id": 20,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "SPAN[][]Standard density",
+      "path": [
+        "SPAN[][]Standard density",
+        "BUTTON[dropdown-menu-trigger][]Table density",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Table density"
+    },
+    {
+      "time": 7902.299999952316,
+      "step": "density/1/tap-same-trigger-close",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "closed"
+        }
+      ]
+    },
+    {
+      "time": 7903.399999976158,
+      "step": "density/1/tap-same-trigger-close",
+      "type": "dismissableLayer.pointerDownOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "closed"
+        }
+      ],
+      "id": 20,
+      "originalType": "pointerdown",
+      "pointerType": "touch",
+      "isTrusted": true,
+      "originalTarget": "SPAN[][]Standard density",
+      "originalPath": [
+        "SPAN[][]Standard density",
+        "BUTTON[dropdown-menu-trigger][]Table density",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 27,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 7903.5,
+      "step": "density/1/tap-same-trigger-close",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "closed"
+        }
+      ],
+      "id": 20,
+      "defaultPrevented": true,
+      "pathLength": 27
+    },
+    {
+      "time": 7922.199999928474,
+      "step": "density/1/tap-same-trigger-close",
+      "type": "dismissableLayer.focusOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "closed"
+        }
+      ],
+      "originalType": "focusin",
+      "isTrusted": true,
+      "originalTarget": "BUTTON[dropdown-menu-trigger][]Table density",
+      "originalPath": [
+        "BUTTON[dropdown-menu-trigger][]Table density",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 26,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 7922.299999952316,
+      "step": "density/1/tap-same-trigger-close",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "closed"
+        }
+      ],
+      "defaultPrevented": true,
+      "pathLength": 26
+    },
+    {
+      "time": 7922.899999976158,
+      "step": "density/1/tap-same-trigger-close",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "closed"
+        }
+      ],
+      "isTrusted": true,
+      "target": "SPAN[][]Standard density"
+    },
+    {
+      "time": 8125.099999904633,
+      "step": "density/2/open",
+      "type": "native-pointerdown",
+      "menus": [],
+      "id": 21,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "SPAN[][]Standard density",
+      "path": [
+        "SPAN[][]Standard density",
+        "BUTTON[dropdown-menu-trigger][]Table density",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]76 rowsStandard densityCu",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Table density"
+    },
+    {
+      "time": 8161.899999976158,
+      "step": "density/2/open",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "SPAN[][]Standard density"
+    },
+    {
+      "time": 8190.699999928474,
+      "step": "density/2/select-reopen",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "open"
+        }
+      ],
+      "id": 22,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "DIV[dropdown-menu-radio-item][menuitemradio]Compact",
+      "path": [
+        "DIV[dropdown-menu-radio-item][menuitemradio]Compact",
+        "DIV[dropdown-menu-radio-group][group]StandardCompactComfortabl",
+        "DIV[dropdown-menu-content][menu]Table density",
+        "DIV[][]StandardCompactComfortabl",
+        "DIV[][]StandardCompactComfortabl",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "other"
+    },
+    {
+      "time": 8212.799999952316,
+      "step": "density/2/select-reopen",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "DIV[dropdown-menu-radio-item][menuitemradio]Compact"
+    },
+    {
+      "time": 8299.799999952316,
+      "step": "density/2/select-reopen",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "closed"
+        }
+      ]
+    },
+    {
+      "time": 8307.299999952316,
+      "step": "density/2/select-reopen",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "closed"
+        }
+      ],
+      "id": 23,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "SPAN[][]Compact density",
+      "path": [
+        "SPAN[][]Compact density",
+        "BUTTON[dropdown-menu-trigger][]Table density",
+        "DIV[][]76 rowsCompact densityCus",
+        "DIV[][]76 rowsCompact densityCus",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Table density"
+    },
+    {
+      "time": 8309.599999904633,
+      "step": "density/2/select-reopen",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "open"
+        }
+      ]
+    },
+    {
+      "time": 8310.399999976158,
+      "step": "density/2/select-reopen",
+      "type": "dismissableLayer.pointerDownOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "open"
+        }
+      ],
+      "id": 23,
+      "originalType": "pointerdown",
+      "pointerType": "touch",
+      "isTrusted": true,
+      "originalTarget": "SPAN[][]Compact density",
+      "originalPath": [
+        "SPAN[][]Compact density",
+        "BUTTON[dropdown-menu-trigger][]Table density",
+        "DIV[][]76 rowsCompact densityCus",
+        "DIV[][]76 rowsCompact densityCus",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 27,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 8310.399999976158,
+      "step": "density/2/select-reopen",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "open"
+        }
+      ],
+      "id": 23,
+      "defaultPrevented": true,
+      "pathLength": 27
+    },
+    {
+      "time": 8328,
+      "step": "density/2/select-reopen",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "SPAN[][]Compact density"
+    },
+    {
+      "time": 8357.799999952316,
+      "step": "density/2/tap-same-trigger-close",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "open"
+        }
+      ],
+      "id": 24,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "SPAN[][]Compact density",
+      "path": [
+        "SPAN[][]Compact density",
+        "BUTTON[dropdown-menu-trigger][]Table density",
+        "DIV[][]76 rowsCompact densityCus",
+        "DIV[][]76 rowsCompact densityCus",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Table density"
+    },
+    {
+      "time": 8360.099999904633,
+      "step": "density/2/tap-same-trigger-close",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "closed"
+        }
+      ]
+    },
+    {
+      "time": 8361.199999928474,
+      "step": "density/2/tap-same-trigger-close",
+      "type": "dismissableLayer.pointerDownOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "closed"
+        }
+      ],
+      "id": 24,
+      "originalType": "pointerdown",
+      "pointerType": "touch",
+      "isTrusted": true,
+      "originalTarget": "SPAN[][]Compact density",
+      "originalPath": [
+        "SPAN[][]Compact density",
+        "BUTTON[dropdown-menu-trigger][]Table density",
+        "DIV[][]76 rowsCompact densityCus",
+        "DIV[][]76 rowsCompact densityCus",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 27,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 8361.199999928474,
+      "step": "density/2/tap-same-trigger-close",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "closed"
+        }
+      ],
+      "id": 24,
+      "defaultPrevented": true,
+      "pathLength": 27
+    },
+    {
+      "time": 8380.599999904633,
+      "step": "density/2/tap-same-trigger-close",
+      "type": "dismissableLayer.focusOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "closed"
+        }
+      ],
+      "originalType": "focusin",
+      "isTrusted": true,
+      "originalTarget": "BUTTON[dropdown-menu-trigger][]Table density",
+      "originalPath": [
+        "BUTTON[dropdown-menu-trigger][]Table density",
+        "DIV[][]76 rowsCompact densityCus",
+        "DIV[][]76 rowsCompact densityCus",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 26,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 8380.699999928474,
+      "step": "density/2/tap-same-trigger-close",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "closed"
+        }
+      ],
+      "defaultPrevented": true,
+      "pathLength": 26
+    },
+    {
+      "time": 8381.199999928474,
+      "step": "density/2/tap-same-trigger-close",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Table density",
+          "state": "closed"
+        }
+      ],
+      "isTrusted": true,
+      "target": "SPAN[][]Compact density"
+    },
+    {
+      "time": 8584.199999928474,
+      "step": "density/2/tap-same-trigger-close",
+      "type": "native-pointerdown",
+      "menus": [],
+      "id": 25,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "svg[][]",
+      "path": [
+        "svg[][]",
+        "BUTTON[popover-trigger][]Filter displayName",
+        "DIV[][]displayName",
+        "TH[][]displayName",
+        "TR[][]ActionsprojectIddisplayNa",
+        "THEAD[][]ActionsprojectIddisplayNa",
+        "TABLE[][]ActionsprojectIddisplayNa",
+        "DIV[][]ActionsprojectIddisplayNa",
+        "DIV[][]76 rowsCompact densityCus",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "other"
+    },
+    {
+      "time": 8586.5,
+      "step": "density/2/tap-same-trigger-close",
+      "type": "native-click",
+      "menus": [],
+      "isTrusted": true,
+      "target": "svg[][]"
+    },
+    {
+      "time": 8866.399999976158,
+      "step": "text-operator/0/open",
+      "type": "native-pointerdown",
+      "menus": [],
+      "id": 26,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+      "path": [
+        "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+        "DIV[][]Custom filterContains",
+        "DIV[popover-content][dialog]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Text filter for displayName"
+    },
+    {
+      "time": 8900.699999928474,
+      "step": "text-operator/0/open",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "BUTTON[dropdown-menu-trigger][]Text filter for displayName"
+    },
+    {
+      "time": 8923.599999904633,
+      "step": "text-operator/0/select-reopen",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "open"
+        }
+      ],
+      "id": 27,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "DIV[dropdown-menu-radio-item][menuitemradio]Equals",
+      "path": [
+        "DIV[dropdown-menu-radio-item][menuitemradio]Equals",
+        "DIV[dropdown-menu-radio-group][group]ContainsEqualsDoes not eq",
+        "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+        "DIV[][]ContainsEqualsDoes not eq",
+        "DIV[][]displayNameSelect current",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "other"
+    },
+    {
+      "time": 9023.399999976158,
+      "step": "text-operator/0/select-reopen",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "DIV[dropdown-menu-radio-item][menuitemradio]Equals"
+    },
+    {
+      "time": 9049.599999904633,
+      "step": "text-operator/0/select-reopen",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "closed"
+        }
+      ]
+    },
+    {
+      "time": 9069.699999928474,
+      "step": "text-operator/0/select-reopen",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "closed"
+        }
+      ],
+      "id": 28,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+      "path": [
+        "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+        "DIV[][]Custom filterEquals",
+        "DIV[popover-content][dialog]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Text filter for displayName"
+    },
+    {
+      "time": 9071.899999976158,
+      "step": "text-operator/0/select-reopen",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "open"
+        }
+      ]
+    },
+    {
+      "time": 9072.599999904633,
+      "step": "text-operator/0/select-reopen",
+      "type": "dismissableLayer.pointerDownOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "open"
+        }
+      ],
+      "id": 28,
+      "originalType": "pointerdown",
+      "pointerType": "touch",
+      "isTrusted": true,
+      "originalTarget": "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+      "originalPath": [
+        "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+        "DIV[][]Custom filterEquals",
+        "DIV[popover-content][dialog]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 9,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 9072.799999952316,
+      "step": "text-operator/0/select-reopen",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "open"
+        }
+      ],
+      "id": 28,
+      "defaultPrevented": true,
+      "pathLength": 9
+    },
+    {
+      "time": 9074.299999952316,
+      "step": "text-operator/0/select-reopen",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "BUTTON[dropdown-menu-trigger][]Text filter for displayName"
+    },
+    {
+      "time": 9107,
+      "step": "text-operator/0/tap-same-trigger-close",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "open"
+        }
+      ],
+      "id": 29,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+      "path": [
+        "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+        "DIV[][]Custom filterEquals",
+        "DIV[popover-content][dialog]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Text filter for displayName"
+    },
+    {
+      "time": 9109.199999928474,
+      "step": "text-operator/0/tap-same-trigger-close",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "closed"
+        }
+      ]
+    },
+    {
+      "time": 9109.799999952316,
+      "step": "text-operator/0/tap-same-trigger-close",
+      "type": "dismissableLayer.pointerDownOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "closed"
+        }
+      ],
+      "id": 29,
+      "originalType": "pointerdown",
+      "pointerType": "touch",
+      "isTrusted": true,
+      "originalTarget": "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+      "originalPath": [
+        "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+        "DIV[][]Custom filterEquals",
+        "DIV[popover-content][dialog]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 9,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 9109.899999976158,
+      "step": "text-operator/0/tap-same-trigger-close",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "closed"
+        }
+      ],
+      "id": 29,
+      "defaultPrevented": true,
+      "pathLength": 9
+    },
+    {
+      "time": 9111.799999952316,
+      "step": "text-operator/0/tap-same-trigger-close",
+      "type": "dismissableLayer.focusOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "closed"
+        }
+      ],
+      "originalType": "focusin",
+      "isTrusted": true,
+      "originalTarget": "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+      "originalPath": [
+        "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+        "DIV[][]Custom filterEquals",
+        "DIV[popover-content][dialog]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 9,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 9112,
+      "step": "text-operator/0/tap-same-trigger-close",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "closed"
+        }
+      ],
+      "defaultPrevented": true,
+      "pathLength": 9
+    },
+    {
+      "time": 9112.099999904633,
+      "step": "text-operator/0/tap-same-trigger-close",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "closed"
+        }
+      ],
+      "isTrusted": true,
+      "target": "BUTTON[dropdown-menu-trigger][]Text filter for displayName"
+    },
+    {
+      "time": 9314.699999928474,
+      "step": "text-operator/1/open",
+      "type": "native-pointerdown",
+      "menus": [],
+      "id": 30,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+      "path": [
+        "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+        "DIV[][]Custom filterEquals",
+        "DIV[popover-content][dialog]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Text filter for displayName"
+    },
+    {
+      "time": 9323.699999928474,
+      "step": "text-operator/1/open",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "BUTTON[dropdown-menu-trigger][]Text filter for displayName"
+    },
+    {
+      "time": 9340.899999976158,
+      "step": "text-operator/1/select-reopen",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "open"
+        }
+      ],
+      "id": 31,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "DIV[dropdown-menu-radio-item][menuitemradio]Contains",
+      "path": [
+        "DIV[dropdown-menu-radio-item][menuitemradio]Contains",
+        "DIV[dropdown-menu-radio-group][group]ContainsEqualsDoes not eq",
+        "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+        "DIV[][]ContainsEqualsDoes not eq",
+        "DIV[][]displayNameSelect current",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "other"
+    },
+    {
+      "time": 9343.799999952316,
+      "step": "text-operator/1/select-reopen",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "DIV[dropdown-menu-radio-item][menuitemradio]Contains"
+    },
+    {
+      "time": 9355.699999928474,
+      "step": "text-operator/1/select-reopen",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "closed"
+        }
+      ]
+    },
+    {
+      "time": 9374,
+      "step": "text-operator/1/select-reopen",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "closed"
+        }
+      ],
+      "id": 32,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+      "path": [
+        "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+        "DIV[][]Custom filterContains",
+        "DIV[popover-content][dialog]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Text filter for displayName"
+    },
+    {
+      "time": 9376.399999976158,
+      "step": "text-operator/1/select-reopen",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "open"
+        }
+      ]
+    },
+    {
+      "time": 9377.299999952316,
+      "step": "text-operator/1/select-reopen",
+      "type": "dismissableLayer.pointerDownOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "open"
+        }
+      ],
+      "id": 32,
+      "originalType": "pointerdown",
+      "pointerType": "touch",
+      "isTrusted": true,
+      "originalTarget": "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+      "originalPath": [
+        "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+        "DIV[][]Custom filterContains",
+        "DIV[popover-content][dialog]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 9,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 9377.5,
+      "step": "text-operator/1/select-reopen",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "open"
+        }
+      ],
+      "id": 32,
+      "defaultPrevented": true,
+      "pathLength": 9
+    },
+    {
+      "time": 9378.599999904633,
+      "step": "text-operator/1/select-reopen",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "BUTTON[dropdown-menu-trigger][]Text filter for displayName"
+    },
+    {
+      "time": 9415.699999928474,
+      "step": "text-operator/1/tap-same-trigger-close",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "open"
+        }
+      ],
+      "id": 33,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+      "path": [
+        "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+        "DIV[][]Custom filterContains",
+        "DIV[popover-content][dialog]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Text filter for displayName"
+    },
+    {
+      "time": 9418.299999952316,
+      "step": "text-operator/1/tap-same-trigger-close",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "closed"
+        }
+      ]
+    },
+    {
+      "time": 9419.099999904633,
+      "step": "text-operator/1/tap-same-trigger-close",
+      "type": "dismissableLayer.pointerDownOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "closed"
+        }
+      ],
+      "id": 33,
+      "originalType": "pointerdown",
+      "pointerType": "touch",
+      "isTrusted": true,
+      "originalTarget": "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+      "originalPath": [
+        "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+        "DIV[][]Custom filterContains",
+        "DIV[popover-content][dialog]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 9,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 9419.199999928474,
+      "step": "text-operator/1/tap-same-trigger-close",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "closed"
+        }
+      ],
+      "id": 33,
+      "defaultPrevented": true,
+      "pathLength": 9
+    },
+    {
+      "time": 9421.399999976158,
+      "step": "text-operator/1/tap-same-trigger-close",
+      "type": "dismissableLayer.focusOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "closed"
+        }
+      ],
+      "originalType": "focusin",
+      "isTrusted": true,
+      "originalTarget": "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+      "originalPath": [
+        "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+        "DIV[][]Custom filterContains",
+        "DIV[popover-content][dialog]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 9,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 9421.5,
+      "step": "text-operator/1/tap-same-trigger-close",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "closed"
+        }
+      ],
+      "defaultPrevented": true,
+      "pathLength": 9
+    },
+    {
+      "time": 9421.599999904633,
+      "step": "text-operator/1/tap-same-trigger-close",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "closed"
+        }
+      ],
+      "isTrusted": true,
+      "target": "BUTTON[dropdown-menu-trigger][]Text filter for displayName"
+    },
+    {
+      "time": 9623.799999952316,
+      "step": "text-operator/2/open",
+      "type": "native-pointerdown",
+      "menus": [],
+      "id": 34,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+      "path": [
+        "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+        "DIV[][]Custom filterContains",
+        "DIV[popover-content][dialog]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Text filter for displayName"
+    },
+    {
+      "time": 9636,
+      "step": "text-operator/2/open",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "BUTTON[dropdown-menu-trigger][]Text filter for displayName"
+    },
+    {
+      "time": 9649.399999976158,
+      "step": "text-operator/2/select-reopen",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "open"
+        }
+      ],
+      "id": 35,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "DIV[dropdown-menu-radio-item][menuitemradio]Equals",
+      "path": [
+        "DIV[dropdown-menu-radio-item][menuitemradio]Equals",
+        "DIV[dropdown-menu-radio-group][group]ContainsEqualsDoes not eq",
+        "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+        "DIV[][]ContainsEqualsDoes not eq",
+        "DIV[][]displayNameSelect current",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "other"
+    },
+    {
+      "time": 9651.899999976158,
+      "step": "text-operator/2/select-reopen",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "DIV[dropdown-menu-radio-item][menuitemradio]Equals"
+    },
+    {
+      "time": 9663.699999928474,
+      "step": "text-operator/2/select-reopen",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "closed"
+        }
+      ]
+    },
+    {
+      "time": 9674.899999976158,
+      "step": "text-operator/2/select-reopen",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "closed"
+        }
+      ],
+      "id": 36,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+      "path": [
+        "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+        "DIV[][]Custom filterEquals",
+        "DIV[popover-content][dialog]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Text filter for displayName"
+    },
+    {
+      "time": 9677.099999904633,
+      "step": "text-operator/2/select-reopen",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "open"
+        }
+      ]
+    },
+    {
+      "time": 9678.099999904633,
+      "step": "text-operator/2/select-reopen",
+      "type": "dismissableLayer.pointerDownOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "open"
+        }
+      ],
+      "id": 36,
+      "originalType": "pointerdown",
+      "pointerType": "touch",
+      "isTrusted": true,
+      "originalTarget": "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+      "originalPath": [
+        "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+        "DIV[][]Custom filterEquals",
+        "DIV[popover-content][dialog]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 9,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 9678.099999904633,
+      "step": "text-operator/2/select-reopen",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "open"
+        }
+      ],
+      "id": 36,
+      "defaultPrevented": true,
+      "pathLength": 9
+    },
+    {
+      "time": 9679.199999928474,
+      "step": "text-operator/2/select-reopen",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "BUTTON[dropdown-menu-trigger][]Text filter for displayName"
+    },
+    {
+      "time": 9707.799999952316,
+      "step": "text-operator/2/tap-same-trigger-close",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "open"
+        }
+      ],
+      "id": 37,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+      "path": [
+        "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+        "DIV[][]Custom filterEquals",
+        "DIV[popover-content][dialog]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Text filter for displayName"
+    },
+    {
+      "time": 9710.299999952316,
+      "step": "text-operator/2/tap-same-trigger-close",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "closed"
+        }
+      ]
+    },
+    {
+      "time": 9711.299999952316,
+      "step": "text-operator/2/tap-same-trigger-close",
+      "type": "dismissableLayer.pointerDownOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "closed"
+        }
+      ],
+      "id": 37,
+      "originalType": "pointerdown",
+      "pointerType": "touch",
+      "isTrusted": true,
+      "originalTarget": "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+      "originalPath": [
+        "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+        "DIV[][]Custom filterEquals",
+        "DIV[popover-content][dialog]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 9,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 9711.399999976158,
+      "step": "text-operator/2/tap-same-trigger-close",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "closed"
+        }
+      ],
+      "id": 37,
+      "defaultPrevented": true,
+      "pathLength": 9
+    },
+    {
+      "time": 9714.099999904633,
+      "step": "text-operator/2/tap-same-trigger-close",
+      "type": "dismissableLayer.focusOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "closed"
+        }
+      ],
+      "originalType": "focusin",
+      "isTrusted": true,
+      "originalTarget": "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+      "originalPath": [
+        "BUTTON[dropdown-menu-trigger][]Text filter for displayName",
+        "DIV[][]Custom filterEquals",
+        "DIV[popover-content][dialog]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "DIV[][]displayNameSelect current",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 9,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 9714.099999904633,
+      "step": "text-operator/2/tap-same-trigger-close",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "closed"
+        }
+      ],
+      "defaultPrevented": true,
+      "pathLength": 9
+    },
+    {
+      "time": 9714.299999952316,
+      "step": "text-operator/2/tap-same-trigger-close",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]ContainsEqualsDoes not eq",
+          "state": "closed"
+        }
+      ],
+      "isTrusted": true,
+      "target": "BUTTON[dropdown-menu-trigger][]Text filter for displayName"
+    },
+    {
+      "time": 10157.599999904633,
+      "step": "text-operator/2/tap-same-trigger-close",
+      "type": "native-pointerdown",
+      "menus": [],
+      "id": 38,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "svg[][]",
+      "path": [
+        "svg[][]",
+        "BUTTON[popover-trigger][]Filter projectId",
+        "DIV[][]projectId",
+        "TH[][]projectId",
+        "TR[][]ActionsprojectIddisplayNa",
+        "THEAD[][]ActionsprojectIddisplayNa",
+        "TABLE[][]ActionsprojectIddisplayNa",
+        "DIV[][]ActionsprojectIddisplayNa",
+        "DIV[][]76 rowsCompact densityCus",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Native touch audit\n76 row",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]Show table15:39:02Native ",
+        "DIV[][]E2E Harness SessionShow t",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "DIV[][]Qwen CodeNew taskProjectq",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "other"
+    },
+    {
+      "time": 10179.199999928474,
+      "step": "text-operator/2/tap-same-trigger-close",
+      "type": "native-click",
+      "menus": [],
+      "isTrusted": true,
+      "target": "svg[][]"
+    },
+    {
+      "time": 10515.799999952316,
+      "step": "number-operator/0/open",
+      "type": "native-pointerdown",
+      "menus": [],
+      "id": 39,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+      "path": [
+        "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+        "DIV[][]Custom filterGreater than",
+        "DIV[popover-content][dialog]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Number filter for projectId"
+    },
+    {
+      "time": 10543.799999952316,
+      "step": "number-operator/0/open",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "BUTTON[dropdown-menu-trigger][]Number filter for projectId"
+    },
+    {
+      "time": 10565.299999952316,
+      "step": "number-operator/0/select-reopen",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "open"
+        }
+      ],
+      "id": 40,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "DIV[dropdown-menu-radio-item][menuitemradio]Between",
+      "path": [
+        "DIV[dropdown-menu-radio-item][menuitemradio]Between",
+        "DIV[dropdown-menu-radio-group][group]Greater thanGreater than ",
+        "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+        "DIV[][]Greater thanGreater than ",
+        "DIV[][]projectIdSelect current r",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "other"
+    },
+    {
+      "time": 10581.199999928474,
+      "step": "number-operator/0/select-reopen",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "DIV[dropdown-menu-radio-item][menuitemradio]Between"
+    },
+    {
+      "time": 10591.399999976158,
+      "step": "number-operator/0/select-reopen",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "closed"
+        }
+      ]
+    },
+    {
+      "time": 10598.399999976158,
+      "step": "number-operator/0/select-reopen",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "closed"
+        }
+      ],
+      "id": 41,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+      "path": [
+        "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+        "DIV[][]Custom filterBetween",
+        "DIV[popover-content][dialog]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Number filter for projectId"
+    },
+    {
+      "time": 10600.399999976158,
+      "step": "number-operator/0/select-reopen",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "open"
+        }
+      ]
+    },
+    {
+      "time": 10601.5,
+      "step": "number-operator/0/select-reopen",
+      "type": "dismissableLayer.pointerDownOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "open"
+        }
+      ],
+      "id": 41,
+      "originalType": "pointerdown",
+      "pointerType": "touch",
+      "isTrusted": true,
+      "originalTarget": "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+      "originalPath": [
+        "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+        "DIV[][]Custom filterBetween",
+        "DIV[popover-content][dialog]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 9,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 10601.599999904633,
+      "step": "number-operator/0/select-reopen",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "open"
+        }
+      ],
+      "id": 41,
+      "defaultPrevented": true,
+      "pathLength": 9
+    },
+    {
+      "time": 10602.699999928474,
+      "step": "number-operator/0/select-reopen",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "BUTTON[dropdown-menu-trigger][]Number filter for projectId"
+    },
+    {
+      "time": 10640.199999928474,
+      "step": "number-operator/0/tap-same-trigger-close",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "open"
+        }
+      ],
+      "id": 42,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+      "path": [
+        "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+        "DIV[][]Custom filterBetween",
+        "DIV[popover-content][dialog]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Number filter for projectId"
+    },
+    {
+      "time": 10642.599999904633,
+      "step": "number-operator/0/tap-same-trigger-close",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "closed"
+        }
+      ]
+    },
+    {
+      "time": 10643.199999928474,
+      "step": "number-operator/0/tap-same-trigger-close",
+      "type": "dismissableLayer.pointerDownOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "closed"
+        }
+      ],
+      "id": 42,
+      "originalType": "pointerdown",
+      "pointerType": "touch",
+      "isTrusted": true,
+      "originalTarget": "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+      "originalPath": [
+        "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+        "DIV[][]Custom filterBetween",
+        "DIV[popover-content][dialog]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 9,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 10643.299999952316,
+      "step": "number-operator/0/tap-same-trigger-close",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "closed"
+        }
+      ],
+      "id": 42,
+      "defaultPrevented": true,
+      "pathLength": 9
+    },
+    {
+      "time": 10645.5,
+      "step": "number-operator/0/tap-same-trigger-close",
+      "type": "dismissableLayer.focusOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "closed"
+        }
+      ],
+      "originalType": "focusin",
+      "isTrusted": true,
+      "originalTarget": "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+      "originalPath": [
+        "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+        "DIV[][]Custom filterBetween",
+        "DIV[popover-content][dialog]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 9,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 10645.5,
+      "step": "number-operator/0/tap-same-trigger-close",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "closed"
+        }
+      ],
+      "defaultPrevented": true,
+      "pathLength": 9
+    },
+    {
+      "time": 10645.699999928474,
+      "step": "number-operator/0/tap-same-trigger-close",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "closed"
+        }
+      ],
+      "isTrusted": true,
+      "target": "BUTTON[dropdown-menu-trigger][]Number filter for projectId"
+    },
+    {
+      "time": 10849.099999904633,
+      "step": "number-operator/1/open",
+      "type": "native-pointerdown",
+      "menus": [],
+      "id": 43,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+      "path": [
+        "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+        "DIV[][]Custom filterBetween",
+        "DIV[popover-content][dialog]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Number filter for projectId"
+    },
+    {
+      "time": 10866.199999928474,
+      "step": "number-operator/1/open",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "BUTTON[dropdown-menu-trigger][]Number filter for projectId"
+    },
+    {
+      "time": 10890.599999904633,
+      "step": "number-operator/1/select-reopen",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "open"
+        }
+      ],
+      "id": 44,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "DIV[dropdown-menu-radio-item][menuitemradio]Greater than",
+      "path": [
+        "DIV[dropdown-menu-radio-item][menuitemradio]Greater than",
+        "DIV[dropdown-menu-radio-group][group]Greater thanGreater than ",
+        "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+        "DIV[][]Greater thanGreater than ",
+        "DIV[][]projectIdSelect current r",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "other"
+    },
+    {
+      "time": 10894.599999904633,
+      "step": "number-operator/1/select-reopen",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "DIV[dropdown-menu-radio-item][menuitemradio]Greater than"
+    },
+    {
+      "time": 10948.299999952316,
+      "step": "number-operator/1/select-reopen",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "closed"
+        }
+      ]
+    },
+    {
+      "time": 10965.299999952316,
+      "step": "number-operator/1/select-reopen",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "closed"
+        }
+      ],
+      "id": 45,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+      "path": [
+        "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+        "DIV[][]Custom filterGreater than",
+        "DIV[popover-content][dialog]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Number filter for projectId"
+    },
+    {
+      "time": 10968.699999928474,
+      "step": "number-operator/1/select-reopen",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "open"
+        }
+      ]
+    },
+    {
+      "time": 10969.599999904633,
+      "step": "number-operator/1/select-reopen",
+      "type": "dismissableLayer.pointerDownOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "open"
+        }
+      ],
+      "id": 45,
+      "originalType": "pointerdown",
+      "pointerType": "touch",
+      "isTrusted": true,
+      "originalTarget": "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+      "originalPath": [
+        "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+        "DIV[][]Custom filterGreater than",
+        "DIV[popover-content][dialog]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 9,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 10969.699999928474,
+      "step": "number-operator/1/select-reopen",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "open"
+        }
+      ],
+      "id": 45,
+      "defaultPrevented": true,
+      "pathLength": 9
+    },
+    {
+      "time": 10970.799999952316,
+      "step": "number-operator/1/select-reopen",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "BUTTON[dropdown-menu-trigger][]Number filter for projectId"
+    },
+    {
+      "time": 11007.399999976158,
+      "step": "number-operator/1/tap-same-trigger-close",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "open"
+        }
+      ],
+      "id": 46,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+      "path": [
+        "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+        "DIV[][]Custom filterGreater than",
+        "DIV[popover-content][dialog]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Number filter for projectId"
+    },
+    {
+      "time": 11011.099999904633,
+      "step": "number-operator/1/tap-same-trigger-close",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "closed"
+        }
+      ]
+    },
+    {
+      "time": 11012.099999904633,
+      "step": "number-operator/1/tap-same-trigger-close",
+      "type": "dismissableLayer.pointerDownOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "closed"
+        }
+      ],
+      "id": 46,
+      "originalType": "pointerdown",
+      "pointerType": "touch",
+      "isTrusted": true,
+      "originalTarget": "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+      "originalPath": [
+        "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+        "DIV[][]Custom filterGreater than",
+        "DIV[popover-content][dialog]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 9,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 11012.199999928474,
+      "step": "number-operator/1/tap-same-trigger-close",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "closed"
+        }
+      ],
+      "id": 46,
+      "defaultPrevented": true,
+      "pathLength": 9
+    },
+    {
+      "time": 11014.899999976158,
+      "step": "number-operator/1/tap-same-trigger-close",
+      "type": "dismissableLayer.focusOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "closed"
+        }
+      ],
+      "originalType": "focusin",
+      "isTrusted": true,
+      "originalTarget": "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+      "originalPath": [
+        "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+        "DIV[][]Custom filterGreater than",
+        "DIV[popover-content][dialog]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 9,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 11015,
+      "step": "number-operator/1/tap-same-trigger-close",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "closed"
+        }
+      ],
+      "defaultPrevented": true,
+      "pathLength": 9
+    },
+    {
+      "time": 11015.199999928474,
+      "step": "number-operator/1/tap-same-trigger-close",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "closed"
+        }
+      ],
+      "isTrusted": true,
+      "target": "BUTTON[dropdown-menu-trigger][]Number filter for projectId"
+    },
+    {
+      "time": 11224.399999976158,
+      "step": "number-operator/2/open",
+      "type": "native-pointerdown",
+      "menus": [],
+      "id": 47,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+      "path": [
+        "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+        "DIV[][]Custom filterGreater than",
+        "DIV[popover-content][dialog]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Number filter for projectId"
+    },
+    {
+      "time": 11237.899999976158,
+      "step": "number-operator/2/open",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "BUTTON[dropdown-menu-trigger][]Number filter for projectId"
+    },
+    {
+      "time": 11265.5,
+      "step": "number-operator/2/select-reopen",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "open"
+        }
+      ],
+      "id": 48,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "DIV[dropdown-menu-radio-item][menuitemradio]Between",
+      "path": [
+        "DIV[dropdown-menu-radio-item][menuitemradio]Between",
+        "DIV[dropdown-menu-radio-group][group]Greater thanGreater than ",
+        "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+        "DIV[][]Greater thanGreater than ",
+        "DIV[][]projectIdSelect current r",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "other"
+    },
+    {
+      "time": 11269.799999952316,
+      "step": "number-operator/2/select-reopen",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "DIV[dropdown-menu-radio-item][menuitemradio]Between"
+    },
+    {
+      "time": 11319.599999904633,
+      "step": "number-operator/2/select-reopen",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "closed"
+        }
+      ]
+    },
+    {
+      "time": 11325.199999928474,
+      "step": "number-operator/2/select-reopen",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "closed"
+        }
+      ],
+      "id": 49,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+      "path": [
+        "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+        "DIV[][]Custom filterBetween",
+        "DIV[popover-content][dialog]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Number filter for projectId"
+    },
+    {
+      "time": 11327.399999976158,
+      "step": "number-operator/2/select-reopen",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "open"
+        }
+      ]
+    },
+    {
+      "time": 11328.099999904633,
+      "step": "number-operator/2/select-reopen",
+      "type": "dismissableLayer.pointerDownOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "open"
+        }
+      ],
+      "id": 49,
+      "originalType": "pointerdown",
+      "pointerType": "touch",
+      "isTrusted": true,
+      "originalTarget": "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+      "originalPath": [
+        "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+        "DIV[][]Custom filterBetween",
+        "DIV[popover-content][dialog]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 9,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 11328.299999952316,
+      "step": "number-operator/2/select-reopen",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "open"
+        }
+      ],
+      "id": 49,
+      "defaultPrevented": true,
+      "pathLength": 9
+    },
+    {
+      "time": 11329.5,
+      "step": "number-operator/2/select-reopen",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "open"
+        }
+      ],
+      "isTrusted": true,
+      "target": "BUTTON[dropdown-menu-trigger][]Number filter for projectId"
+    },
+    {
+      "time": 11357,
+      "step": "number-operator/2/tap-same-trigger-close",
+      "type": "native-pointerdown",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "open"
+        }
+      ],
+      "id": 50,
+      "isTrusted": true,
+      "pointerType": "touch",
+      "target": "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+      "path": [
+        "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+        "DIV[][]Custom filterBetween",
+        "DIV[popover-content][dialog]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "closestTrigger": "BUTTON[dropdown-menu-trigger][]Number filter for projectId"
+    },
+    {
+      "time": 11359.099999904633,
+      "step": "number-operator/2/tap-same-trigger-close",
+      "type": "menu-state-mutation",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "closed"
+        }
+      ]
+    },
+    {
+      "time": 11359.799999952316,
+      "step": "number-operator/2/tap-same-trigger-close",
+      "type": "dismissableLayer.pointerDownOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "closed"
+        }
+      ],
+      "id": 50,
+      "originalType": "pointerdown",
+      "pointerType": "touch",
+      "isTrusted": true,
+      "originalTarget": "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+      "originalPath": [
+        "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+        "DIV[][]Custom filterBetween",
+        "DIV[popover-content][dialog]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 9,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 11359.799999952316,
+      "step": "number-operator/2/tap-same-trigger-close",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "closed"
+        }
+      ],
+      "id": 50,
+      "defaultPrevented": true,
+      "pathLength": 9
+    },
+    {
+      "time": 11362,
+      "step": "number-operator/2/tap-same-trigger-close",
+      "type": "dismissableLayer.focusOutside",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "closed"
+        }
+      ],
+      "originalType": "focusin",
+      "isTrusted": true,
+      "originalTarget": "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+      "originalPath": [
+        "BUTTON[dropdown-menu-trigger][]Number filter for projectId",
+        "DIV[][]Custom filterBetween",
+        "DIV[popover-content][dialog]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "DIV[][]projectIdSelect current r",
+        "BODY[][]\n    \n    \n      !(functi",
+        "HTML[][]\n    import { injectIntoG",
+        "document",
+        "window"
+      ],
+      "pathLength": 9,
+      "triggerInPath": true,
+      "defaultPrevented": false
+    },
+    {
+      "time": 11362.099999904633,
+      "step": "number-operator/2/tap-same-trigger-close",
+      "type": "outside-after-handler",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "closed"
+        }
+      ],
+      "defaultPrevented": true,
+      "pathLength": 9
+    },
+    {
+      "time": 11362.199999928474,
+      "step": "number-operator/2/tap-same-trigger-close",
+      "type": "native-click",
+      "menus": [
+        {
+          "node": "DIV[dropdown-menu-content][menu]Greater thanGreater than ",
+          "state": "closed"
+        }
+      ],
+      "isTrusted": true,
+      "target": "BUTTON[dropdown-menu-trigger][]Number filter for projectId"
+    }
+  ]
+}
