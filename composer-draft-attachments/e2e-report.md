@@ -1,11 +1,10 @@
 # Composer draft attachments — review-fix verification
 
-Candidate source: f3c64bdf88a84059b09ff43db0c087ce9bf30838 (feature fix fe4cabad60; CI test fix f3c64bdf88), based on the user merged head 85ea625479. Verified files match the final 15-file SHA-256 manifest before/after browser runs; Git commit hooks left those bytes unchanged. macOS, Node 22, Chromium 149.
+Candidate source: 8bb627ff90bd1357db8a710e8fe15bfe367021bd, based on the user merged head 85ea625479. The user requested withdrawal of the unrelated core test change; the final PR has no core diff. The remaining fourteen changed files match the browser-tested snapshot byte for byte (the original fifteen-file browser manifests also include that now-withdrawn core test). Git commit hooks left browser source bytes unchanged. macOS, Node 22, Chromium 149.
 
 ## Results
 
 - 421/421 relevant Web Shell unit/DOM tests across ten files, including actual managed-admission callers and attachment deletion.
-- 192/192 core extension tests; the durable-commit regression also passes with an actual state-file rename delayed 1250ms and without the delay.
 - 9/9 complete Web Shell UI browser scenarios (simulated daemon): reload/session isolation and exact upload bytes; restore-time additions plus native same-name binary File contents; delayed acceptance protecting a new draft; one folded-text payload after an archive overlap; removal of visible overlapping image surviving release and reload; same-session main/split edits and reload; shared removal/clear; shared accepted submission; independent split sessions.
 - 7/7 focused actual-hook DOM probes: managed-style fallback cleanup; held native-reader start through allocation; exact-text overlap with different-content control; overlapping-image removal; different new-chip removal retaining unread archive; genuinely loaded-chip removal; occurrence counts and unknown binary preservation.
 - 9/9 additional actual-hook/native-browser fixed/control groups: old acceptance cannot abort a sibling reader; allocated pending/destination cleanup; removing submitted X while active/after leaving; adding Y or a reference tag while active/after leaving protects the whole draft; managed-style edit guard and image-only post-unmount archive cleanup.
@@ -25,9 +24,9 @@ CI investigation and the complete pinned Node/Bun runtime run are reported separ
 
 ## 中文说明
 
-验证源码为 f3c64bdf88a84059b09ff43db0c087ce9bf30838，基于用户合并后的 85ea625479；功能修复为 fe4cabad60，CI 测试修复为 f3c64bdf88。浏览器测试首尾与 Git hook 执行后，15 个文件的冻结 SHA-256 一致。环境为 macOS、Node 22、Chromium 149。
+验证源码对应最终 8bb627ff90bd1357db8a710e8fe15bfe367021bd，基于用户合并后的 85ea625479。按用户要求已撤回无关 core 测试修改，最终 PR 的 core diff 为零；其余 14 个修改文件与浏览器测试源码逐字节一致。原浏览器 15 文件清单包含现已撤回的 core 测试，浏览器源码在测试首尾及 Git hook 后保持一致。环境为 macOS、Node 22、Chromium 149。
 
-通过结果：Web Shell 十个相关文件 421/421，包含托管接受调用方及附件删除；core 扩展模块 192/192，实际将状态文件 rename 延迟 1250ms 的对照也通过。9/9 条完整产品 UI 浏览器场景覆盖恢复、隔离、原生同名二进制文件内容、上传字节、新草稿保护、文字重叠去重、重叠删除后刷新、共享编辑/清空/发送及独立分屏。7/7 条专项 DOM probe 覆盖宿主清理、分配时待读取、重叠合并/删除、重复次数和未知二进制保留。另有 9/9 组实际 hook/原生浏览器修复及保护性对照，覆盖旧接受不取消新读取、迁移后的双 key 清理、删除已提交 X、新增 Y/标签、宿主编辑保护及卸载后的纯附件清理。全仓构建、bundle、类型检查、最终 Web Shell 重建/bundle、ESLint、格式和空白检查通过，两次最终完整 diff 自审未发现新增 Critical。
+通过结果：Web Shell 十个相关文件 421/421，包含托管接受调用方及附件删除。9/9 条完整产品 UI 浏览器场景覆盖恢复、隔离、原生同名二进制文件内容、上传字节、新草稿保护、文字重叠去重、重叠删除后刷新、共享编辑/清空/发送及独立分屏。7/7 条专项 DOM probe 覆盖宿主清理、分配时待读取、重叠合并/删除、重复次数和未知二进制保留。另有 9/9 组实际 hook/原生浏览器修复及保护性对照，覆盖旧接受不取消新读取、迁移后的双 key 清理、删除已提交 X、新增 Y/标签、宿主编辑保护及卸载后的纯附件清理。全仓构建、bundle、类型检查、最终 Web Shell 重建/bundle、ESLint、格式和空白检查通过，两次最终完整 diff 自审未发现新增 Critical。
 
 PR 选用的四张截图已目视检查，来自当前源码的实际 Web Shell UI，使用**模拟 daemon**。原生 File、IndexedDB 事务/结构化克隆、刷新及序列化上传字节为真实执行；不能证明真实 daemon/模型、后端会话分配或 Git 后端行为。独立竞态 harness 使用真实 React/CodeMirror hook 与浏览器存储/读取器，但直接控制分配和接受时序；其托管保护用例不是实际 Managed 后端请求。移动端仅为 textarea DOM 验证，未跑实体设备。DOM IndexedDB 替身不模拟结构化克隆、版本和事务模式限制，相关存储证据来自原生浏览器。
 
