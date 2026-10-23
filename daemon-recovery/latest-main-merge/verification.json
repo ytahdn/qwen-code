@@ -1,0 +1,104 @@
+{
+  "commit": "84c64bf0cc0494985f05f01c9565092ac3bd8f24",
+  "result": "PASSED",
+  "checks": [
+    {
+      "name": "diagnostic-cold-no-report-read-before-open",
+      "pass": true
+    },
+    {
+      "name": "actual-controller-enters-unavailable",
+      "pass": true
+    },
+    {
+      "name": "cold-offline-diagnostic-does-not-fetch-status",
+      "pass": true
+    },
+    {
+      "name": "cold-offline-diagnostic-not-loading",
+      "pass": true
+    },
+    {
+      "name": "diagnostic-recovery-reads-summary-and-full",
+      "pass": true
+    },
+    {
+      "name": "diagnostic-no-business-write-replay",
+      "pass": true
+    },
+    {
+      "name": "narrow-real-artifact-drawer-open",
+      "pass": true
+    },
+    {
+      "name": "actual-managed-provider-queried",
+      "pass": true
+    },
+    {
+      "name": "managed-visible-floating-panel-hidden-banner-present",
+      "pass": true
+    },
+    {
+      "name": "no-browser-javascript-errors",
+      "pass": true
+    }
+  ],
+  "scope": {
+    "ui": "Actual Web Shell App/main and actual JavaManagedAgentProvider, rendered by Chromium under isolated Vite.",
+    "backends": "Deterministic browser route mocks for daemon/Managed HTTP and SSE; no real daemon/model/Java/Git service.",
+    "outage": "Actual shared controller check(true) against mocked failed health sets unavailable before first Status-page mount; manual Retry connection drives health/capabilities recovery.",
+    "managedTransition": "At 900x1000, open actual Local attachment drawer, then programmatically click the actual Managed Agents button DOM handler behind that modal; controlled state transition, not an ordinary pointer navigation claim.",
+    "harness": "A test init helper supplies __name for tsx-serialized official SSE fixture functions; no product-source replacement or fabricated page."
+  },
+  "diagnostic": {
+    "statusReadsBeforeFirstOfflineOpen": 0,
+    "statusReadsDuringOffline": 0,
+    "statusReadsAfterManualRecovery": [
+      "summary (default detail omitted)",
+      "full"
+    ],
+    "businessWrites": 0
+  },
+  "managed": {
+    "viewport": [
+      900,
+      1000
+    ],
+    "actualProviderReadRequests": 1,
+    "initialArtifactDrawerVerified": true,
+    "managedHomeVisible": true,
+    "floatingArtifactHidden": true,
+    "bannerVisible": true,
+    "turnWritesReplayed": 0
+  },
+  "browserJavaScriptErrors": 0,
+  "consoleResourceErrors": {
+    "Failed to load resource: the server responded with a status of 401 (Unauthorized)": 4,
+    "Failed to load resource: net::ERR_CONNECTION_REFUSED": 2
+  },
+  "screenshots": [
+    {
+      "file": "diagnostic-cold-offline-mock.png",
+      "sha256": "0095d51d900ca441e13a2fac530ee76960741c4b8cb062247c864ea2d4474bb8",
+      "visuallyInspected": true
+    },
+    {
+      "file": "diagnostic-recovered-mock.png",
+      "sha256": "32c2e347f5ee91631f97520e73b103296dfebd078707244aefeba61c4fd6ed90",
+      "visuallyInspected": true
+    },
+    {
+      "file": "managed-narrow-offline-banner-mock.png",
+      "sha256": "ef078629ae24befb7dbd01c6867772bded9b10e47b751bb547cfa5f82947b568",
+      "visuallyInspected": true
+    }
+  ],
+  "cleanup": {
+    "browserClosed": true,
+    "ownedViteExited": true,
+    "ownedPortReleased": true,
+    "existingServicesOperated": 0,
+    "packageLocalTemporaryTestsCreated": 0
+  },
+  "mergeMainParent": "32b4234b849c229b0e5ed9ec6ddf987f3318c67e"
+}
