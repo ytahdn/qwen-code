@@ -1,0 +1,72 @@
+Revision: 04d27f916680bf3c8a0278d1103d6b8d0b3d30d6
+Binary: node dist/cli.js serve (http://127.0.0.1:4197, built dist/web-shell)
+Browser: Playwright Chromium 149.0.7827.55
+Daemon: existing simulated browser fixture; no real backend verification
+Command: QWEN_TEST_URL=http://127.0.0.1:4197 QWEN_TEST_LABEL=built-fix node_modules/.bin/tsx .qwen/scripts/reproduce-15996.ts
+Exit code: 0
+
+BROWSER 149.0.7827.55
+SESSION_SWITCH {
+  tag: 'DIV',
+  testId: 'chat-pane-container',
+  editable: false,
+  events: []
+}
+PLUGINS_RETURN {
+  tag: 'DIV',
+  testId: 'chat-pane-container',
+  editable: false,
+  events: []
+}
+SETTINGS_RETURN {
+  tag: 'DIV',
+  testId: 'chat-pane-container',
+  editable: false,
+  events: []
+}
+SETTINGS_PAINT {
+  box: {
+    x: 33,
+    y: 721,
+    width: 324,
+    height: 44,
+    top: 721,
+    right: 357,
+    bottom: 765,
+    left: 33
+  },
+  style: 'visible',
+  ancestors: [
+    {
+      class: '_editorArea_1raaa_92',
+      rect: [Object],
+      opacity: '1',
+      visibility: 'visible'
+    },
+    {
+      class: '_inputRow_1raaa_63',
+      rect: [Object],
+      opacity: '1',
+      visibility: 'visible'
+    },
+    {
+      class: '_chatPane_1qjgl_119',
+      rect: [Object],
+      opacity: '1',
+      visibility: 'visible'
+    }
+  ]
+}
+NEW_SESSION {
+  tag: 'TEXTAREA',
+  testId: null,
+  editable: true,
+  events: [ { tag: 'TEXTAREA', activation: true } ]
+}
+DIRECT_INPUT {
+  tag: 'TEXTAREA',
+  testId: null,
+  editable: true,
+  events: [ { tag: 'TEXTAREA', activation: true } ]
+}
+

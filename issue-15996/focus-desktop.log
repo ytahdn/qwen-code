@@ -1,0 +1,75 @@
+Revision: 04d27f916680bf3c8a0278d1103d6b8d0b3d30d6
+Binary: node dist/cli.js serve (http://127.0.0.1:4197, built dist/web-shell)
+Browser: Playwright Chromium 149.0.7827.55
+Daemon: existing simulated browser fixture; no real backend verification
+Command: QWEN_TEST_URL=http://127.0.0.1:4197 QWEN_TEST_LABEL=built-fix QWEN_TEST_DESKTOP=1 node_modules/.bin/tsx .qwen/scripts/reproduce-15996.ts
+Exit code: 0
+
+BROWSER 149.0.7827.55
+SESSION_SWITCH {
+  tag: 'DIV',
+  testId: null,
+  editable: true,
+  events: [
+    { tag: 'DIV', activation: false },
+    { tag: 'DIV', activation: true }
+  ]
+}
+PLUGINS_RETURN {
+  tag: 'DIV',
+  testId: null,
+  editable: true,
+  events: [ { tag: 'DIV', activation: true } ]
+}
+SETTINGS_RETURN {
+  tag: 'DIV',
+  testId: null,
+  editable: true,
+  events: [ { tag: 'DIV', activation: true } ]
+}
+SETTINGS_PAINT {
+  box: {
+    x: 389,
+    y: 787,
+    width: 858,
+    height: 46,
+    top: 787,
+    right: 1247,
+    bottom: 833,
+    left: 389
+  },
+  style: 'visible',
+  ancestors: [
+    {
+      class: 'cm-scroller',
+      rect: [Object],
+      opacity: '1',
+      visibility: 'visible'
+    },
+    {
+      class: 'cm-editor cm-focused ͼ1 ͼ2 ͼ4 ͼo',
+      rect: [Object],
+      opacity: '1',
+      visibility: 'visible'
+    },
+    {
+      class: '_chatPane_1qjgl_119',
+      rect: [Object],
+      opacity: '1',
+      visibility: 'visible'
+    }
+  ]
+}
+NEW_SESSION {
+  tag: 'DIV',
+  testId: null,
+  editable: true,
+  events: [ { tag: 'DIV', activation: true } ]
+}
+DIRECT_INPUT {
+  tag: 'DIV',
+  testId: null,
+  editable: true,
+  events: [ { tag: 'DIV', activation: true } ]
+}
+

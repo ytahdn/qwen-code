@@ -1,0 +1,12 @@
+Revision: 04d27f916680bf3c8a0278d1103d6b8d0b3d30d6
+Binary: node dist/cli.js serve (http://127.0.0.1:4197, built dist/web-shell)
+Browser: Playwright Chromium 149.0.7827.55
+Daemon: existing simulated browser fixture; no real backend verification
+Command: node_modules/.bin/tsx .qwen/scripts/review-15996-focus-race.ts
+Exit code: 0
+
+BEFORE { tag: 'BUTTON', testId: 'panel-back' }
+OLD_EDITOR_FOCUS_ATTEMPT { unchanged: true, tag: 'BUTTON', testId: 'panel-back' }
+AFTER { tag: 'BUTTON', testId: 'panel-back' }
+PANEL_VISIBLE true
+
